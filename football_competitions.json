@@ -1,0 +1,1554 @@
+{
+  "timestamp": "2025-10-04T06:25:01.283Z",
+  "source": "fbref.com",
+  "dataType": "football competitions",
+  "total_competitions": 193,
+  "womens_competitions": 0,
+  "all_competitions": [
+    {
+      "name": "Liverpool",
+      "url": "https://fbref.com/en/squads/822bd0ba/Liverpool-Stats",
+      "country": "15 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Bournemouth",
+      "url": "https://fbref.com/en/squads/4ba7cbea/Bournemouth-Stats",
+      "country": "14 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Arsenal",
+      "url": "https://fbref.com/en/squads/18bb7c10/Arsenal-Stats",
+      "country": "13 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Crystal Palace",
+      "url": "https://fbref.com/en/squads/47c64c55/Crystal-Palace-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Milan",
+      "url": "https://fbref.com/en/squads/dc56fe14/Milan-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Napoli",
+      "url": "https://fbref.com/en/squads/d48ad4ff/Napoli-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Roma",
+      "url": "https://fbref.com/en/squads/cf74a709/Roma-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Juventus",
+      "url": "https://fbref.com/en/squads/e0652b02/Juventus-Stats",
+      "country": "11 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Barcelona",
+      "url": "https://fbref.com/en/squads/206d90db/Barcelona-Stats",
+      "country": "19 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Real Madrid",
+      "url": "https://fbref.com/en/squads/53a2f082/Real-Madrid-Stats",
+      "country": "18 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Villarreal",
+      "url": "https://fbref.com/en/squads/2a8183b3/Villarreal-Stats",
+      "country": "16 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Elche",
+      "url": "https://fbref.com/en/squads/6c8b07df/Elche-Stats",
+      "country": "13 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Paris Saint-Germain",
+      "url": "https://fbref.com/en/squads/e2d8892c/Paris-Saint-Germain-Stats",
+      "country": "15 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Lyon",
+      "url": "https://fbref.com/en/squads/d53c0b06/Lyon-Stats",
+      "country": "15 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Marseille",
+      "url": "https://fbref.com/en/squads/5725cc7b/Marseille-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Monaco",
+      "url": "https://fbref.com/en/squads/fd6114db/Monaco-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Bayern Munich",
+      "url": "https://fbref.com/en/squads/054efa67/Bayern-Munich-Stats",
+      "country": "15 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Dortmund",
+      "url": "https://fbref.com/en/squads/add600ae/Dortmund-Stats",
+      "country": "13 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "RB Leipzig",
+      "url": "https://fbref.com/en/squads/acbb6a5b/RB-Leipzig-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Köln",
+      "url": "https://fbref.com/en/squads/bc357bf7/Koln-Stats",
+      "country": "10 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Philadelphia Union",
+      "url": "https://fbref.com/en/squads/46024eeb/Philadelphia-Union-Stats",
+      "country": "63 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "FC Cincinnati",
+      "url": "https://fbref.com/en/squads/e9ea41b2/FC-Cincinnati-Stats",
+      "country": "59 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Vancouver Whitecaps FC",
+      "url": "https://fbref.com/en/squads/ab41cb90/Vancouver-Whitecaps-FC-Stats",
+      "country": "57 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "San Diego FC",
+      "url": "https://fbref.com/en/squads/91b092e1/San-Diego-FC-Stats",
+      "country": "57 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Kansas City Current",
+      "url": "https://fbref.com/en/squads/6f666306/Kansas-City-Current-Stats",
+      "country": "56 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Washington Spirit",
+      "url": "https://fbref.com/en/squads/e442aad0/Washington-Spirit-Stats",
+      "country": "40 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Gotham FC",
+      "url": "https://fbref.com/en/squads/8e306dc6/Gotham-FC-Stats",
+      "country": "34 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Seattle Reign FC",
+      "url": "https://fbref.com/en/squads/257fad2b/Seattle-Reign-FC-Stats",
+      "country": "33 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Chelsea",
+      "url": "https://fbref.com/en/squads/a6a4e67d/Chelsea-Women-Stats",
+      "country": "13 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Manchester United",
+      "url": "https://fbref.com/en/squads/0bbd83f6/Manchester-United-Women-Stats",
+      "country": "11 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Manchester City",
+      "url": "https://fbref.com/en/squads/9ce68f8a/Manchester-City-Women-Stats",
+      "country": "9 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Tottenham",
+      "url": "https://fbref.com/en/squads/e8e4577c/Tottenham-Women-Stats",
+      "country": "9 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Lyon",
+      "url": "https://fbref.com/en/squads/7f2012ad/Lyon-Women-Stats",
+      "country": "12 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Paris FC",
+      "url": "https://fbref.com/en/squads/28d9b675/Paris-FC-Women-Stats",
+      "country": "9 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Nantes",
+      "url": "https://fbref.com/en/squads/c03cdc6f/Nantes-Women-Stats",
+      "country": "9 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "Le Havre",
+      "url": "https://fbref.com/en/squads/c57b7254/Le-Havre-Women-Stats",
+      "country": "7 pts",
+      "type": "Club",
+      "seasons": "",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "FIFA",
+      "type": "2019",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONCACAF",
+      "type": "2023",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONMEBOL",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONMEBOL",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "1990-1991",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "1990-1991",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "2021-2022",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "2000",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "UEFA",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "FIFA",
+      "type": "1930",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "FIFA",
+      "type": "2001",
+      "seasons": "2017",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "FIFA",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "FIFA",
+      "type": "1991",
+      "seasons": "2023",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "FIFA",
+      "type": "1996",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "FIFA",
+      "type": "2019",
+      "seasons": "2022",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "FIFA",
+      "type": "2019",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "FIFA",
+      "type": "2016",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CAF",
+      "type": "2010",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "CAF",
+      "type": "2016",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONCACAF",
+      "type": "2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "CONCACAF",
+      "type": "2014",
+      "seasons": "2022",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONMEBOL",
+      "type": "2015",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "CONMEBOL",
+      "type": "2018",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "OFC",
+      "type": "2007-2008",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "OFC",
+      "type": "2018",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "2000",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "2018-2019",
+      "seasons": "2024-2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "UEFA",
+      "type": "2001",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "AFC",
+      "type": "2000",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "AFC",
+      "type": "2014",
+      "seasons": "2022",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "1888-1889",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "es ESP",
+      "type": "1988-1989",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fr FRA",
+      "type": "1995-1996",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "1988-1989",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "it ITA",
+      "type": "1988-1989",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "",
+      "type": "1995-1996",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ar ARG",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "au AUS",
+      "type": "2005-2006",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "au AUS",
+      "type": "2018-2019",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "at AUT",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "at AUT",
+      "type": "2020-2021",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "be BEL",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "be BEL",
+      "type": "2020-2021",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "bo BOL",
+      "type": "2014-2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "br BRA",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "br BRA",
+      "type": "2019",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "bg BUL",
+      "type": "2009-2010",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ca CAN",
+      "type": "2019",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "cl CHI",
+      "type": "2014-2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "cn CHN",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "co COL",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "hr CRO",
+      "type": "2007-2008",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "cz CZE",
+      "type": "2009-2010",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "dk DEN",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "dk DEN",
+      "type": "2019-2020",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ec ECU",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "1888-1889",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2017",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "es ESP",
+      "type": "1988-1989",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "es ESP",
+      "type": "2022-2023",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fi FIN",
+      "type": "2003",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fr FRA",
+      "type": "1995-1996",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "fr FRA",
+      "type": "2017-2018",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "1988-1989",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "de GER",
+      "type": "2016-2017",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "gr GRE",
+      "type": "2000-2001",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "hu HUN",
+      "type": "2005-2006",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "in IND",
+      "type": "2014",
+      "seasons": "2024-2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ie IRL",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ir IRN",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "it ITA",
+      "type": "1988-1989",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "it ITA",
+      "type": "2018-2019",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "jp JPN",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "jp JPN",
+      "type": "2021-2022",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "kr KOR",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "sa KSA",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "mx MEX",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "nl NED",
+      "type": "2000-2001",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "nl NED",
+      "type": "2018-2019",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "no NOR",
+      "type": "2000",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "no NOR",
+      "type": "2017",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "py PAR",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "pe PER",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "pl POL",
+      "type": "2002-2003",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "pt POR",
+      "type": "2000-2001",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ro ROU",
+      "type": "2006-2007",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "za RSA",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ru RUS",
+      "type": "2001",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "sct SCO",
+      "type": "2000-2001",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "rs SRB",
+      "type": "2008-2009",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ch SUI",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "ch SUI",
+      "type": "2021-2022",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "se SWE",
+      "type": "2001",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "se SWE",
+      "type": "2017",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "tr TUR",
+      "type": "2001-2002",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ua UKR",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "uy URU",
+      "type": "2014-2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "1996",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "us USA",
+      "type": "2013",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "us USA",
+      "type": "2009",
+      "seasons": "2011",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "us USA",
+      "type": "2001",
+      "seasons": "2003",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ve VEN",
+      "type": "2014-2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "be BEL",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "br BRA",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2001-2002",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "es ESP",
+      "type": "2001-2002",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fr FRA",
+      "type": "2009-2010",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "2003-2004",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "in IND",
+      "type": "2013-2014",
+      "seasons": "2024-2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "it ITA",
+      "type": "2001-2002",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "jp JPN",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "nl NED",
+      "type": "2007-2008",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "sct SCO",
+      "type": "2007-2008",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "se SWE",
+      "type": "2006",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "2011",
+      "seasons": "2017",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "2011",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "2004",
+      "seasons": "2009",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "2010",
+      "seasons": "2010",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2002-2003",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2002-2003",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2006-2007",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "2009-2010",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "2020",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "FIFA",
+      "type": "2022",
+      "seasons": "2022",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CAF",
+      "type": "2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CAF",
+      "type": "2002",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONCACAF",
+      "type": "1998",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "CONMEBOL",
+      "type": "2002",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "OFC",
+      "type": "2014",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "1998",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "UEFA",
+      "type": "2008",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "UEFA",
+      "type": "2019",
+      "seasons": "2023",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "UEFA",
+      "type": "2017",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "AFC",
+      "type": "2000",
+      "seasons": "2023",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "AFC",
+      "type": "2002",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "AFC",
+      "type": "2018",
+      "seasons": "2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "ar ARG",
+      "type": "2020",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "es ESP",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "es ESP",
+      "type": "2015",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fr FRA",
+      "type": "2014-2015",
+      "seasons": "2024-2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fr FRA",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "fr FRA",
+      "type": "2014-2015",
+      "seasons": "2019-2020",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "de GER",
+      "type": "2019-2020",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "it ITA",
+      "type": "2014-2015",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "it ITA",
+      "type": "2014",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "us USA",
+      "type": "2019",
+      "seasons": "2025",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "us USA",
+      "type": "2020",
+      "seasons": "2024",
+      "isWomens": false
+    },
+    {
+      "name": "F",
+      "url": "",
+      "country": "us USA",
+      "type": "2020",
+      "seasons": "2020",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2016-2017",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "eng ENG",
+      "type": "2016-2017",
+      "seasons": "2022-2023",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "2016-2017",
+      "seasons": "2025-2026",
+      "isWomens": false
+    },
+    {
+      "name": "M",
+      "url": "",
+      "country": "de GER",
+      "type": "2015-2016",
+      "seasons": "2025-2026",
+      "isWomens": false
+    }
+  ],
+  "womens_only": []
+}

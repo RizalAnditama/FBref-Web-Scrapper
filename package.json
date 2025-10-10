@@ -1,0 +1,13 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for fbref.com",
+  "main": "scraper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.1"
+  }
+}
