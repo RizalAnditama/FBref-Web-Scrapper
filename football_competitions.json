@@ -1,1554 +1,2336 @@
 {
-  "timestamp": "2025-10-04T06:25:01.283Z",
+  "timestamp": "2025-10-12T15:02:06.276Z",
   "source": "fbref.com",
   "dataType": "football competitions",
-  "total_competitions": 193,
-  "womens_competitions": 0,
-  "all_competitions": [
-    {
-      "name": "Liverpool",
-      "url": "https://fbref.com/en/squads/822bd0ba/Liverpool-Stats",
-      "country": "15 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Bournemouth",
-      "url": "https://fbref.com/en/squads/4ba7cbea/Bournemouth-Stats",
-      "country": "14 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Arsenal",
-      "url": "https://fbref.com/en/squads/18bb7c10/Arsenal-Stats",
-      "country": "13 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Crystal Palace",
-      "url": "https://fbref.com/en/squads/47c64c55/Crystal-Palace-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Milan",
-      "url": "https://fbref.com/en/squads/dc56fe14/Milan-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Napoli",
-      "url": "https://fbref.com/en/squads/d48ad4ff/Napoli-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Roma",
-      "url": "https://fbref.com/en/squads/cf74a709/Roma-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Juventus",
-      "url": "https://fbref.com/en/squads/e0652b02/Juventus-Stats",
-      "country": "11 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Barcelona",
-      "url": "https://fbref.com/en/squads/206d90db/Barcelona-Stats",
-      "country": "19 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Real Madrid",
-      "url": "https://fbref.com/en/squads/53a2f082/Real-Madrid-Stats",
-      "country": "18 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Villarreal",
-      "url": "https://fbref.com/en/squads/2a8183b3/Villarreal-Stats",
-      "country": "16 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Elche",
-      "url": "https://fbref.com/en/squads/6c8b07df/Elche-Stats",
-      "country": "13 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Paris Saint-Germain",
-      "url": "https://fbref.com/en/squads/e2d8892c/Paris-Saint-Germain-Stats",
-      "country": "15 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Lyon",
-      "url": "https://fbref.com/en/squads/d53c0b06/Lyon-Stats",
-      "country": "15 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Marseille",
-      "url": "https://fbref.com/en/squads/5725cc7b/Marseille-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Monaco",
-      "url": "https://fbref.com/en/squads/fd6114db/Monaco-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Bayern Munich",
-      "url": "https://fbref.com/en/squads/054efa67/Bayern-Munich-Stats",
-      "country": "15 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Dortmund",
-      "url": "https://fbref.com/en/squads/add600ae/Dortmund-Stats",
-      "country": "13 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "RB Leipzig",
-      "url": "https://fbref.com/en/squads/acbb6a5b/RB-Leipzig-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Köln",
-      "url": "https://fbref.com/en/squads/bc357bf7/Koln-Stats",
-      "country": "10 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Philadelphia Union",
-      "url": "https://fbref.com/en/squads/46024eeb/Philadelphia-Union-Stats",
-      "country": "63 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "FC Cincinnati",
-      "url": "https://fbref.com/en/squads/e9ea41b2/FC-Cincinnati-Stats",
-      "country": "59 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Vancouver Whitecaps FC",
-      "url": "https://fbref.com/en/squads/ab41cb90/Vancouver-Whitecaps-FC-Stats",
-      "country": "57 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "San Diego FC",
-      "url": "https://fbref.com/en/squads/91b092e1/San-Diego-FC-Stats",
-      "country": "57 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Kansas City Current",
-      "url": "https://fbref.com/en/squads/6f666306/Kansas-City-Current-Stats",
-      "country": "56 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Washington Spirit",
-      "url": "https://fbref.com/en/squads/e442aad0/Washington-Spirit-Stats",
-      "country": "40 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Gotham FC",
-      "url": "https://fbref.com/en/squads/8e306dc6/Gotham-FC-Stats",
-      "country": "34 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Seattle Reign FC",
-      "url": "https://fbref.com/en/squads/257fad2b/Seattle-Reign-FC-Stats",
-      "country": "33 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Chelsea",
-      "url": "https://fbref.com/en/squads/a6a4e67d/Chelsea-Women-Stats",
-      "country": "13 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Manchester United",
-      "url": "https://fbref.com/en/squads/0bbd83f6/Manchester-United-Women-Stats",
-      "country": "11 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Manchester City",
-      "url": "https://fbref.com/en/squads/9ce68f8a/Manchester-City-Women-Stats",
-      "country": "9 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Tottenham",
-      "url": "https://fbref.com/en/squads/e8e4577c/Tottenham-Women-Stats",
-      "country": "9 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Lyon",
-      "url": "https://fbref.com/en/squads/7f2012ad/Lyon-Women-Stats",
-      "country": "12 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Paris FC",
-      "url": "https://fbref.com/en/squads/28d9b675/Paris-FC-Women-Stats",
-      "country": "9 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Nantes",
-      "url": "https://fbref.com/en/squads/c03cdc6f/Nantes-Women-Stats",
-      "country": "9 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "Le Havre",
-      "url": "https://fbref.com/en/squads/c57b7254/Le-Havre-Women-Stats",
-      "country": "7 pts",
-      "type": "Club",
-      "seasons": "",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "FIFA",
-      "type": "2019",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONCACAF",
-      "type": "2023",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONMEBOL",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONMEBOL",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "1990-1991",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "1990-1991",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "2021-2022",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "2000",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "UEFA",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "FIFA",
-      "type": "1930",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "FIFA",
-      "type": "2001",
-      "seasons": "2017",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "FIFA",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "FIFA",
-      "type": "1991",
-      "seasons": "2023",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "FIFA",
-      "type": "1996",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "FIFA",
-      "type": "2019",
-      "seasons": "2022",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "FIFA",
-      "type": "2019",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "FIFA",
-      "type": "2016",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CAF",
-      "type": "2010",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "CAF",
-      "type": "2016",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONCACAF",
-      "type": "2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "CONCACAF",
-      "type": "2014",
-      "seasons": "2022",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONMEBOL",
-      "type": "2015",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "CONMEBOL",
-      "type": "2018",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "OFC",
-      "type": "2007-2008",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "OFC",
-      "type": "2018",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "2000",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "2018-2019",
-      "seasons": "2024-2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "UEFA",
-      "type": "2001",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "AFC",
-      "type": "2000",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "AFC",
-      "type": "2014",
-      "seasons": "2022",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "1888-1889",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "es ESP",
-      "type": "1988-1989",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fr FRA",
-      "type": "1995-1996",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "1988-1989",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "it ITA",
-      "type": "1988-1989",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "",
-      "type": "1995-1996",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ar ARG",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "au AUS",
-      "type": "2005-2006",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "au AUS",
-      "type": "2018-2019",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "at AUT",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "at AUT",
-      "type": "2020-2021",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "be BEL",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "be BEL",
-      "type": "2020-2021",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "bo BOL",
-      "type": "2014-2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "br BRA",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "br BRA",
-      "type": "2019",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "bg BUL",
-      "type": "2009-2010",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ca CAN",
-      "type": "2019",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "cl CHI",
-      "type": "2014-2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "cn CHN",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "co COL",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "hr CRO",
-      "type": "2007-2008",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "cz CZE",
-      "type": "2009-2010",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "dk DEN",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "dk DEN",
-      "type": "2019-2020",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ec ECU",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "1888-1889",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2017",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "es ESP",
-      "type": "1988-1989",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "es ESP",
-      "type": "2022-2023",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fi FIN",
-      "type": "2003",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fr FRA",
-      "type": "1995-1996",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "fr FRA",
-      "type": "2017-2018",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "1988-1989",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "de GER",
-      "type": "2016-2017",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "gr GRE",
-      "type": "2000-2001",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "hu HUN",
-      "type": "2005-2006",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "in IND",
-      "type": "2014",
-      "seasons": "2024-2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ie IRL",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ir IRN",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "it ITA",
-      "type": "1988-1989",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "it ITA",
-      "type": "2018-2019",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "jp JPN",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "jp JPN",
-      "type": "2021-2022",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "kr KOR",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "sa KSA",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "mx MEX",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "nl NED",
-      "type": "2000-2001",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "nl NED",
-      "type": "2018-2019",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "no NOR",
-      "type": "2000",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "no NOR",
-      "type": "2017",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "py PAR",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "pe PER",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "pl POL",
-      "type": "2002-2003",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "pt POR",
-      "type": "2000-2001",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ro ROU",
-      "type": "2006-2007",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "za RSA",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ru RUS",
-      "type": "2001",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "sct SCO",
-      "type": "2000-2001",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "rs SRB",
-      "type": "2008-2009",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ch SUI",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "ch SUI",
-      "type": "2021-2022",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "se SWE",
-      "type": "2001",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "se SWE",
-      "type": "2017",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "tr TUR",
-      "type": "2001-2002",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ua UKR",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "uy URU",
-      "type": "2014-2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "1996",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "us USA",
-      "type": "2013",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "us USA",
-      "type": "2009",
-      "seasons": "2011",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "us USA",
-      "type": "2001",
-      "seasons": "2003",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ve VEN",
-      "type": "2014-2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "be BEL",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "br BRA",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2001-2002",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "es ESP",
-      "type": "2001-2002",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fr FRA",
-      "type": "2009-2010",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "2003-2004",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "in IND",
-      "type": "2013-2014",
-      "seasons": "2024-2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "it ITA",
-      "type": "2001-2002",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "jp JPN",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "nl NED",
-      "type": "2007-2008",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "sct SCO",
-      "type": "2007-2008",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "se SWE",
-      "type": "2006",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "2011",
-      "seasons": "2017",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "2011",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "2004",
-      "seasons": "2009",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "2010",
-      "seasons": "2010",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2002-2003",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2002-2003",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2006-2007",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "2009-2010",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "2020",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "FIFA",
-      "type": "2022",
-      "seasons": "2022",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CAF",
-      "type": "2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CAF",
-      "type": "2002",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONCACAF",
-      "type": "1998",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "CONMEBOL",
-      "type": "2002",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "OFC",
-      "type": "2014",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "1998",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "UEFA",
-      "type": "2008",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "UEFA",
-      "type": "2019",
-      "seasons": "2023",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "UEFA",
-      "type": "2017",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "AFC",
-      "type": "2000",
-      "seasons": "2023",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "AFC",
-      "type": "2002",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "AFC",
-      "type": "2018",
-      "seasons": "2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "ar ARG",
-      "type": "2020",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "es ESP",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "es ESP",
-      "type": "2015",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fr FRA",
-      "type": "2014-2015",
-      "seasons": "2024-2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fr FRA",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "fr FRA",
-      "type": "2014-2015",
-      "seasons": "2019-2020",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "de GER",
-      "type": "2019-2020",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "it ITA",
-      "type": "2014-2015",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "it ITA",
-      "type": "2014",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "us USA",
-      "type": "2019",
-      "seasons": "2025",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "us USA",
-      "type": "2020",
-      "seasons": "2024",
-      "isWomens": false
-    },
-    {
-      "name": "F",
-      "url": "",
-      "country": "us USA",
-      "type": "2020",
-      "seasons": "2020",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2016-2017",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "eng ENG",
-      "type": "2016-2017",
-      "seasons": "2022-2023",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "2016-2017",
-      "seasons": "2025-2026",
-      "isWomens": false
-    },
-    {
-      "name": "M",
-      "url": "",
-      "country": "de GER",
-      "type": "2015-2016",
-      "seasons": "2025-2026",
-      "isWomens": false
+  "summary": {
+    "total_tables": 9,
+    "tables": [
+      {
+        "name": "Club International Cups",
+        "rows": 10,
+        "total_links": 10
+      },
+      {
+        "name": "National Team Competitions",
+        "rows": 21,
+        "total_links": 21
+      },
+      {
+        "name": "Big 5 European Leagues",
+        "rows": 6,
+        "total_links": 6
+      },
+      {
+        "name": "Domestic Leagues - 1st Tier",
+        "rows": 67,
+        "total_links": 66
+      },
+      {
+        "name": "Domestic Leagues - 2nd Tier",
+        "rows": 16,
+        "total_links": 16
+      },
+      {
+        "name": "Domestic Leagues - 3rd Tier and Lower",
+        "rows": 5,
+        "total_links": 5
+      },
+      {
+        "name": "National Team Qualification",
+        "rows": 13,
+        "total_links": 13
+      },
+      {
+        "name": "Domestic Cups",
+        "rows": 17,
+        "total_links": 17
+      },
+      {
+        "name": "Domestic Youth Leagues",
+        "rows": 4,
+        "total_links": 4
+      }
+    ]
+  },
+  "tables": {
+    "club_international_cups": {
+      "title": "Club International Cups",
+      "headers": [
+        "competition_name",
+        "gender",
+        "governing_body",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "FIFA Club World Cup",
+          "url": "https://fbref.com/en/comps/719/history/FIFA-Club-World-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "FIFA",
+          "first_season": "2019",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "CONCACAF Champions Cup",
+          "url": "https://fbref.com/en/comps/133/history/CONCACAF-Champions-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "CONCACAF",
+          "first_season": "2020",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Leagues Cup",
+          "url": "https://fbref.com/en/comps/939/history/Leagues-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "CONCACAF",
+          "first_season": "2023",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Copa Libertadores de América",
+          "url": "https://fbref.com/en/comps/14/history/Copa-Libertadores-Seasons",
+          "gender": "M",
+          "governing_body": "CONMEBOL",
+          "first_season": "2014",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Copa CONMEBOL Sudamericana",
+          "url": "https://fbref.com/en/comps/205/history/Copa-Sudamericana-Seasons",
+          "gender": "M",
+          "governing_body": "CONMEBOL",
+          "first_season": "2014",
+          "last_season": "2025",
+          "tier": "2nd",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Champions League",
+          "url": "https://fbref.com/en/comps/8/history/Champions-League-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "1990-1991",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Europa League",
+          "url": "https://fbref.com/en/comps/19/history/Europa-League-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "1990-1991",
+          "last_season": "2025-2026",
+          "tier": "2nd",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Conference League",
+          "url": "https://fbref.com/en/comps/882/history/Conference-League-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "2021-2022",
+          "last_season": "2025-2026",
+          "tier": "3rd",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Super Cup",
+          "url": "https://fbref.com/en/comps/122/history/UEFA-Super-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "2000",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Women's Champions League",
+          "url": "https://fbref.com/en/comps/181/history/Champions-League-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        }
+      ],
+      "club_international_cups_links": [
+        {
+          "name": "FIFA Club World Cup",
+          "url": "https://fbref.com/en/comps/719/history/FIFA-Club-World-Cup-Seasons"
+        },
+        {
+          "name": "CONCACAF Champions Cup",
+          "url": "https://fbref.com/en/comps/133/history/CONCACAF-Champions-Cup-Seasons"
+        },
+        {
+          "name": "Leagues Cup",
+          "url": "https://fbref.com/en/comps/939/history/Leagues-Cup-Seasons"
+        },
+        {
+          "name": "Copa Libertadores de América",
+          "url": "https://fbref.com/en/comps/14/history/Copa-Libertadores-Seasons"
+        },
+        {
+          "name": "Copa CONMEBOL Sudamericana",
+          "url": "https://fbref.com/en/comps/205/history/Copa-Sudamericana-Seasons"
+        },
+        {
+          "name": "UEFA Champions League",
+          "url": "https://fbref.com/en/comps/8/history/Champions-League-Seasons"
+        },
+        {
+          "name": "UEFA Europa League",
+          "url": "https://fbref.com/en/comps/19/history/Europa-League-Seasons"
+        },
+        {
+          "name": "UEFA Conference League",
+          "url": "https://fbref.com/en/comps/882/history/Conference-League-Seasons"
+        },
+        {
+          "name": "UEFA Super Cup",
+          "url": "https://fbref.com/en/comps/122/history/UEFA-Super-Cup-Seasons"
+        },
+        {
+          "name": "UEFA Women's Champions League",
+          "url": "https://fbref.com/en/comps/181/history/Champions-League-Seasons"
+        }
+      ]
+    },
+    "national_team_competitions": {
+      "title": "National Team Competitions",
+      "headers": [
+        "competition_name",
+        "gender",
+        "governing_body",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "FIFA World Cup",
+          "url": "https://fbref.com/en/comps/1/history/World-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "FIFA",
+          "first_season": "1930",
+          "last_season": "2026",
+          "tier": "1st",
+          "awards": "FIFA World Cup All-Star Team, FIFA World Cup Bronze Ball, FIFA World Cup Golden Ball, FIFA World Cup Golden Boot, ..."
+        },
+        {
+          "competition_name": "FIFA Confederations Cup",
+          "url": "https://fbref.com/en/comps/666/history/FIFA-Confederations-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "FIFA",
+          "first_season": "2001",
+          "last_season": "2017",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "International Friendlies (M)",
+          "url": "https://fbref.com/en/comps/218/history/Friendlies-M-Seasons",
+          "gender": "M",
+          "governing_body": "FIFA",
+          "first_season": "2014",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA Women's World Cup",
+          "url": "https://fbref.com/en/comps/106/history/Womens-World-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "1991",
+          "last_season": "2023",
+          "tier": "1st",
+          "awards": "FIFA Women's World Cup All-Star Team, FIFA Women's World Cup Bronze Ball, FIFA Women's World Cup Golden Ball, FIFA Women's World Cup Golden Boot, ..."
+        },
+        {
+          "competition_name": "Olympics — Women's Tournament",
+          "url": "https://fbref.com/en/comps/180/history/Olympics-W-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "1996",
+          "last_season": "2024",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Algarve Cup",
+          "url": "https://fbref.com/en/comps/214/history/Algarve-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "2019",
+          "last_season": "2022",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "International Friendlies (W)",
+          "url": "https://fbref.com/en/comps/217/history/Friendlies-W-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "2019",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "SheBelieves Cup",
+          "url": "https://fbref.com/en/comps/212/history/SheBelieves-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "2016",
+          "last_season": "2024",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Africa Cup of Nations",
+          "url": "https://fbref.com/en/comps/656/history/Africa-Cup-of-Nations-Seasons",
+          "gender": "M",
+          "governing_body": "CAF",
+          "first_season": "2010",
+          "last_season": "2024",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Africa Women Cup of Nations",
+          "url": "https://fbref.com/en/comps/156/history/Africa-Women-Cup-of-Nations-Seasons",
+          "gender": "F",
+          "governing_body": "CAF",
+          "first_season": "2016",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "CONCACAF Gold Cup",
+          "url": "https://fbref.com/en/comps/681/history/Gold-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "CONCACAF",
+          "first_season": "2015",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "CONCACAF W Championship",
+          "url": "https://fbref.com/en/comps/157/history/CONCACAF-W-Championship-Seasons",
+          "gender": "F",
+          "governing_body": "CONCACAF",
+          "first_season": "2014",
+          "last_season": "2022",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "CONMEBOL Copa América",
+          "url": "https://fbref.com/en/comps/685/history/Copa-America-Seasons",
+          "gender": "M",
+          "governing_body": "CONMEBOL",
+          "first_season": "2015",
+          "last_season": "2024",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Copa América Femenina",
+          "url": "https://fbref.com/en/comps/158/history/Copa-America-Femenina-Seasons",
+          "gender": "F",
+          "governing_body": "CONMEBOL",
+          "first_season": "2018",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "OFC Nations Cup",
+          "url": "https://fbref.com/en/comps/257/history/OFC-Nations-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "OFC",
+          "first_season": "2007-2008",
+          "last_season": "2024",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "OFC Women's Nations Cup",
+          "url": "https://fbref.com/en/comps/159/history/OFC-Womens-Nations-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "OFC",
+          "first_season": "2018",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA European Football Championship",
+          "url": "https://fbref.com/en/comps/676/history/UEFA-Euro-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "2000",
+          "last_season": "2024",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Nations League",
+          "url": "https://fbref.com/en/comps/677/history/UEFA-Nations-League-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "2018-2019",
+          "last_season": "2024-2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Women's Championship",
+          "url": "https://fbref.com/en/comps/162/history/UEFA-Womens-Euro-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2001",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "AFC Asian Cup",
+          "url": "https://fbref.com/en/comps/664/history/AFC-Asian-Cup-Seasons",
+          "gender": "M",
+          "governing_body": "AFC",
+          "first_season": "2000",
+          "last_season": "2024",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "AFC Women's Asian Cup",
+          "url": "https://fbref.com/en/comps/161/history/AFC-Womens-Asian-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "AFC",
+          "first_season": "2014",
+          "last_season": "2022",
+          "tier": "1st",
+          "awards": ""
+        }
+      ],
+      "national_team_competitions_links": [
+        {
+          "name": "FIFA World Cup",
+          "url": "https://fbref.com/en/comps/1/history/World-Cup-Seasons"
+        },
+        {
+          "name": "FIFA Confederations Cup",
+          "url": "https://fbref.com/en/comps/666/history/FIFA-Confederations-Cup-Seasons"
+        },
+        {
+          "name": "International Friendlies (M)",
+          "url": "https://fbref.com/en/comps/218/history/Friendlies-M-Seasons"
+        },
+        {
+          "name": "FIFA Women's World Cup",
+          "url": "https://fbref.com/en/comps/106/history/Womens-World-Cup-Seasons"
+        },
+        {
+          "name": "Olympics — Women's Tournament",
+          "url": "https://fbref.com/en/comps/180/history/Olympics-W-Seasons"
+        },
+        {
+          "name": "Algarve Cup",
+          "url": "https://fbref.com/en/comps/214/history/Algarve-Cup-Seasons"
+        },
+        {
+          "name": "International Friendlies (W)",
+          "url": "https://fbref.com/en/comps/217/history/Friendlies-W-Seasons"
+        },
+        {
+          "name": "SheBelieves Cup",
+          "url": "https://fbref.com/en/comps/212/history/SheBelieves-Cup-Seasons"
+        },
+        {
+          "name": "Africa Cup of Nations",
+          "url": "https://fbref.com/en/comps/656/history/Africa-Cup-of-Nations-Seasons"
+        },
+        {
+          "name": "Africa Women Cup of Nations",
+          "url": "https://fbref.com/en/comps/156/history/Africa-Women-Cup-of-Nations-Seasons"
+        },
+        {
+          "name": "CONCACAF Gold Cup",
+          "url": "https://fbref.com/en/comps/681/history/Gold-Cup-Seasons"
+        },
+        {
+          "name": "CONCACAF W Championship",
+          "url": "https://fbref.com/en/comps/157/history/CONCACAF-W-Championship-Seasons"
+        },
+        {
+          "name": "CONMEBOL Copa América",
+          "url": "https://fbref.com/en/comps/685/history/Copa-America-Seasons"
+        },
+        {
+          "name": "Copa América Femenina",
+          "url": "https://fbref.com/en/comps/158/history/Copa-America-Femenina-Seasons"
+        },
+        {
+          "name": "OFC Nations Cup",
+          "url": "https://fbref.com/en/comps/257/history/OFC-Nations-Cup-Seasons"
+        },
+        {
+          "name": "OFC Women's Nations Cup",
+          "url": "https://fbref.com/en/comps/159/history/OFC-Womens-Nations-Cup-Seasons"
+        },
+        {
+          "name": "UEFA European Football Championship",
+          "url": "https://fbref.com/en/comps/676/history/UEFA-Euro-Seasons"
+        },
+        {
+          "name": "UEFA Nations League",
+          "url": "https://fbref.com/en/comps/677/history/UEFA-Nations-League-Seasons"
+        },
+        {
+          "name": "UEFA Women's Championship",
+          "url": "https://fbref.com/en/comps/162/history/UEFA-Womens-Euro-Seasons"
+        },
+        {
+          "name": "AFC Asian Cup",
+          "url": "https://fbref.com/en/comps/664/history/AFC-Asian-Cup-Seasons"
+        },
+        {
+          "name": "AFC Women's Asian Cup",
+          "url": "https://fbref.com/en/comps/161/history/AFC-Womens-Asian-Cup-Seasons"
+        }
+      ]
+    },
+    "big_5_european_leagues": {
+      "title": "Big 5 European Leagues",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "Premier League",
+          "url": "https://fbref.com/en/comps/9/history/Premier-League-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "1888-1889",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": "Premier League Golden Boot, Premier League Golden Glove, Premier League Player of the Season, Premier League Young Player of the Season"
+        },
+        {
+          "competition_name": "La Liga",
+          "url": "https://fbref.com/en/comps/12/history/La-Liga-Seasons",
+          "gender": "M",
+          "country": "es ESP",
+          "first_season": "1988-1989",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": "La Liga Best Player, Trofeo Alfredo Di Stéfano"
+        },
+        {
+          "competition_name": "Ligue 1",
+          "url": "https://fbref.com/en/comps/13/history/Ligue-1-Seasons",
+          "gender": "M",
+          "country": "fr FRA",
+          "first_season": "1995-1996",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": "Ligue 1 Male Player of the Year"
+        },
+        {
+          "competition_name": "Fußball-Bundesliga",
+          "url": "https://fbref.com/en/comps/20/history/Bundesliga-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "1988-1989",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Serie A",
+          "url": "https://fbref.com/en/comps/11/history/Serie-A-Seasons",
+          "gender": "M",
+          "country": "it ITA",
+          "first_season": "1988-1989",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": "Serie A Footballer of the Year, Serie A Italian Footballer of the Year"
+        },
+        {
+          "competition_name": "Big 5 European Leagues Combined",
+          "url": "https://fbref.com/en/comps/Big5/history/Big-5-European-Leagues-Seasons",
+          "gender": "M",
+          "country": "",
+          "first_season": "1995-1996",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        }
+      ],
+      "big_5_european_leagues_links": [
+        {
+          "name": "Premier League",
+          "url": "https://fbref.com/en/comps/9/history/Premier-League-Seasons"
+        },
+        {
+          "name": "La Liga",
+          "url": "https://fbref.com/en/comps/12/history/La-Liga-Seasons"
+        },
+        {
+          "name": "Ligue 1",
+          "url": "https://fbref.com/en/comps/13/history/Ligue-1-Seasons"
+        },
+        {
+          "name": "Fußball-Bundesliga",
+          "url": "https://fbref.com/en/comps/20/history/Bundesliga-Seasons"
+        },
+        {
+          "name": "Serie A",
+          "url": "https://fbref.com/en/comps/11/history/Serie-A-Seasons"
+        },
+        {
+          "name": "Big 5 European Leagues Combined",
+          "url": "https://fbref.com/en/comps/Big5/history/Big-5-European-Leagues-Seasons"
+        }
+      ]
+    },
+    "domestic_leagues__1st_tier": {
+      "title": "Domestic Leagues - 1st Tier",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "Liga Profesional de Fútbol Argentina",
+          "url": "https://fbref.com/en/comps/21/history/Liga-Profesional-Argentina-Seasons",
+          "gender": "M",
+          "country": "ar ARG",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "A-League Men",
+          "url": "https://fbref.com/en/comps/65/history/A-League-Men-Seasons",
+          "gender": "M",
+          "country": "au AUS",
+          "first_season": "2005-2006",
+          "last_season": "2025-2026",
+          "awards": "A-League Golden Boot, A-League Joe Marston Medal, A-League Johnny Warren Medal"
+        },
+        {
+          "competition_name": "A-League Women",
+          "url": "https://fbref.com/en/comps/196/history/A-League-Women-Seasons",
+          "gender": "F",
+          "country": "au AUS",
+          "first_season": "2018-2019",
+          "last_season": "2025-2026",
+          "awards": "A-League Women Julie Dolan Award, A-League Women Golden Boot"
+        },
+        {
+          "competition_name": "Austrian Football Bundesliga",
+          "url": "https://fbref.com/en/comps/56/history/Austrian-Bundesliga-Seasons",
+          "gender": "M",
+          "country": "at AUT",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "ÖFB Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/286/history/OFB-Frauen-Bundesliga-Seasons",
+          "gender": "F",
+          "country": "at AUT",
+          "first_season": "2020-2021",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Belgian Pro League",
+          "url": "https://fbref.com/en/comps/37/history/Belgian-Pro-League-Seasons",
+          "gender": "M",
+          "country": "be BEL",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Belgian Women's Super League",
+          "url": "https://fbref.com/en/comps/296/history/Belgian-Womens-Super-League-Seasons",
+          "gender": "F",
+          "country": "be BEL",
+          "first_season": "2020-2021",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "División de Fútbol Profesional",
+          "url": "https://fbref.com/en/comps/74/history/Bolivian-Primera-Division-Seasons",
+          "gender": "M",
+          "country": "bo BOL",
+          "first_season": "2014-2015",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Campeonato Brasileiro Série A",
+          "url": "https://fbref.com/en/comps/24/history/Serie-A-Seasons",
+          "gender": "M",
+          "country": "br BRA",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Brasileirão Feminino Série A1",
+          "url": "https://fbref.com/en/comps/206/history/Serie-A1-Seasons",
+          "gender": "F",
+          "country": "br BRA",
+          "first_season": "2019",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "First Professional Football League",
+          "url": "https://fbref.com/en/comps/67/history/Bulgarian-First-League-Seasons",
+          "gender": "M",
+          "country": "bg BUL",
+          "first_season": "2009-2010",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Canadian Premier League",
+          "url": "https://fbref.com/en/comps/211/history/Canadian-Premier-League-Seasons",
+          "gender": "M",
+          "country": "ca CAN",
+          "first_season": "2019",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Chilean Primera División",
+          "url": "https://fbref.com/en/comps/35/history/Chilean-Primera-Division-Seasons",
+          "gender": "M",
+          "country": "cl CHI",
+          "first_season": "2014-2015",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Chinese Football Association Super League",
+          "url": "https://fbref.com/en/comps/62/history/Chinese-Super-League-Seasons",
+          "gender": "M",
+          "country": "cn CHN",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Categoría Primera A",
+          "url": "https://fbref.com/en/comps/41/history/Primera-A-Seasons",
+          "gender": "M",
+          "country": "co COL",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Croatian Football League",
+          "url": "https://fbref.com/en/comps/63/history/Hrvatska-NL-Seasons",
+          "gender": "M",
+          "country": "hr CRO",
+          "first_season": "2007-2008",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Czech First League",
+          "url": "https://fbref.com/en/comps/66/history/Czech-First-League-Seasons",
+          "gender": "M",
+          "country": "cz CZE",
+          "first_season": "2009-2010",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Danish Superliga",
+          "url": "https://fbref.com/en/comps/50/history/Danish-Superliga-Seasons",
+          "gender": "M",
+          "country": "dk DEN",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "A-Liga",
+          "url": "https://fbref.com/en/comps/340/history/A-Liga-Seasons",
+          "gender": "F",
+          "country": "dk DEN",
+          "first_season": "2019-2020",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Liga Profesional Ecuador",
+          "url": "https://fbref.com/en/comps/58/history/Serie-A-Seasons",
+          "gender": "M",
+          "country": "ec ECU",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Premier League",
+          "url": "https://fbref.com/en/comps/9/history/Premier-League-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "1888-1889",
+          "last_season": "2025-2026",
+          "awards": "Premier League Golden Boot, Premier League Golden Glove, Premier League Player of the Season, Premier League Young Player of the Season"
+        },
+        {
+          "competition_name": "FA Women's Super League",
+          "url": "https://fbref.com/en/comps/189/history/Womens-Super-League-Seasons",
+          "gender": "F",
+          "country": "eng ENG",
+          "first_season": "2017",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "La Liga",
+          "url": "https://fbref.com/en/comps/12/history/La-Liga-Seasons",
+          "gender": "M",
+          "country": "es ESP",
+          "first_season": "1988-1989",
+          "last_season": "2025-2026",
+          "awards": "La Liga Best Player, Trofeo Alfredo Di Stéfano"
+        },
+        {
+          "competition_name": "Liga F",
+          "url": "https://fbref.com/en/comps/230/history/Liga-F-Seasons",
+          "gender": "F",
+          "country": "es ESP",
+          "first_season": "2022-2023",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Veikkausliiga",
+          "url": "https://fbref.com/en/comps/43/history/Veikkausliiga-Seasons",
+          "gender": "M",
+          "country": "fi FIN",
+          "first_season": "2003",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Ligue 1",
+          "url": "https://fbref.com/en/comps/13/history/Ligue-1-Seasons",
+          "gender": "M",
+          "country": "fr FRA",
+          "first_season": "1995-1996",
+          "last_season": "2025-2026",
+          "awards": "Ligue 1 Male Player of the Year"
+        },
+        {
+          "competition_name": "Première Ligue",
+          "url": "https://fbref.com/en/comps/193/history/Premiere-Ligue-Seasons",
+          "gender": "F",
+          "country": "fr FRA",
+          "first_season": "2017-2018",
+          "last_season": "2025-2026",
+          "awards": "Ligue 1 Female Player of the Year"
+        },
+        {
+          "competition_name": "Fußball-Bundesliga",
+          "url": "https://fbref.com/en/comps/20/history/Bundesliga-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "1988-1989",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/183/history/Frauen-Bundesliga-Seasons",
+          "gender": "F",
+          "country": "de GER",
+          "first_season": "2016-2017",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Super League Greece",
+          "url": "https://fbref.com/en/comps/27/history/Super-League-Greece-Seasons",
+          "gender": "M",
+          "country": "gr GRE",
+          "first_season": "2000-2001",
+          "last_season": "2025-2026",
+          "awards": "Best Greek Player (Superleague)"
+        },
+        {
+          "competition_name": "Nemzeti Bajnokság I",
+          "url": "https://fbref.com/en/comps/46/history/NB-I-Seasons",
+          "gender": "M",
+          "country": "hu HUN",
+          "first_season": "2005-2006",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Indian Super League",
+          "url": "https://fbref.com/en/comps/82/history/Indian-Super-League-Seasons",
+          "gender": "M",
+          "country": "in IND",
+          "first_season": "2014",
+          "last_season": "2024-2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "League of Ireland Premier Division",
+          "url": "https://fbref.com/en/comps/80/history/League-of-Ireland-Premier-Division-Seasons",
+          "gender": "M",
+          "country": "ie IRL",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Persian Gulf Pro League",
+          "url": "https://fbref.com/en/comps/64/history/Persian-Gulf-Pro-League-Seasons",
+          "gender": "M",
+          "country": "ir IRN",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "awards": "Iranian Player of the Year"
+        },
+        {
+          "competition_name": "Serie A",
+          "url": "https://fbref.com/en/comps/11/history/Serie-A-Seasons",
+          "gender": "M",
+          "country": "it ITA",
+          "first_season": "1988-1989",
+          "last_season": "2025-2026",
+          "awards": "Serie A Footballer of the Year, Serie A Italian Footballer of the Year"
+        },
+        {
+          "competition_name": "Serie A",
+          "url": "https://fbref.com/en/comps/208/history/Serie-A-Seasons",
+          "gender": "F",
+          "country": "it ITA",
+          "first_season": "2018-2019",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "J1 League",
+          "url": "https://fbref.com/en/comps/25/history/J1-League-Seasons",
+          "gender": "M",
+          "country": "jp JPN",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": "Japan J.League Player of the Year"
+        },
+        {
+          "competition_name": "Women Empowerment League",
+          "url": "https://fbref.com/en/comps/893/history/WE-League-Seasons",
+          "gender": "F",
+          "country": "jp JPN",
+          "first_season": "2021-2022",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "K League 1",
+          "url": "https://fbref.com/en/comps/55/history/K-League-1-Seasons",
+          "gender": "M",
+          "country": "kr KOR",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": "South Korean K League 1 MVP, South Korean K League Players' Player of the Year"
+        },
+        {
+          "competition_name": "Saudi Pro League",
+          "url": "https://fbref.com/en/comps/70/history/Saudi-Pro-League-Seasons",
+          "gender": "M",
+          "country": "sa KSA",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "gender": "Gender",
+          "country": "Country",
+          "first_season": "First Season",
+          "last_season": "Last Season",
+          "awards": "Awards"
+        },
+        {
+          "competition_name": "Liga MX",
+          "url": "https://fbref.com/en/comps/31/history/Liga-MX-Seasons",
+          "gender": "M",
+          "country": "mx MEX",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": "Mexico Balon de Oro (Liga MX)"
+        },
+        {
+          "competition_name": "Eredivisie",
+          "url": "https://fbref.com/en/comps/23/history/Eredivisie-Seasons",
+          "gender": "M",
+          "country": "nl NED",
+          "first_season": "2000-2001",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Eredivisie Vrouwen",
+          "url": "https://fbref.com/en/comps/195/history/Eredivisie-Vrouwen-Seasons",
+          "gender": "F",
+          "country": "nl NED",
+          "first_season": "2018-2019",
+          "last_season": "2025-2026",
+          "awards": "Eredivisie Golden Shoe"
+        },
+        {
+          "competition_name": "Eliteserien",
+          "url": "https://fbref.com/en/comps/28/history/Eliteserien-Seasons",
+          "gender": "M",
+          "country": "no NOR",
+          "first_season": "2000",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Toppserien",
+          "url": "https://fbref.com/en/comps/185/history/Toppserien-Seasons",
+          "gender": "F",
+          "country": "no NOR",
+          "first_season": "2017",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Paraguayan Primera División",
+          "url": "https://fbref.com/en/comps/61/history/Primera-Division-Seasons",
+          "gender": "M",
+          "country": "py PAR",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Liga 1 de Fútbol Profesional",
+          "url": "https://fbref.com/en/comps/44/history/Liga-1-Seasons",
+          "gender": "M",
+          "country": "pe PER",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Ekstraklasa",
+          "url": "https://fbref.com/en/comps/36/history/Ekstraklasa-Seasons",
+          "gender": "M",
+          "country": "pl POL",
+          "first_season": "2002-2003",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Primeira Liga",
+          "url": "https://fbref.com/en/comps/32/history/Primeira-Liga-Seasons",
+          "gender": "M",
+          "country": "pt POR",
+          "first_season": "2000-2001",
+          "last_season": "2025-2026",
+          "awards": "Portuguese Best Player"
+        },
+        {
+          "competition_name": "Liga I",
+          "url": "https://fbref.com/en/comps/47/history/Liga-I-Seasons",
+          "gender": "M",
+          "country": "ro ROU",
+          "first_season": "2006-2007",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "South African Premiership",
+          "url": "https://fbref.com/en/comps/52/history/South-African-Premiership-Seasons",
+          "gender": "M",
+          "country": "za RSA",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Russian Premier League",
+          "url": "https://fbref.com/en/comps/30/history/Russian-Premier-League-Seasons",
+          "gender": "M",
+          "country": "ru RUS",
+          "first_season": "2001",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Scottish Premiership",
+          "url": "https://fbref.com/en/comps/40/history/Scottish-Premiership-Seasons",
+          "gender": "M",
+          "country": "sct SCO",
+          "first_season": "2000-2001",
+          "last_season": "2025-2026",
+          "awards": "PFA Scotland Players' Player of the Year, Scottish Premier League Player of the Year"
+        },
+        {
+          "competition_name": "Serbian SuperLiga",
+          "url": "https://fbref.com/en/comps/54/history/Serbian-SuperLiga-Seasons",
+          "gender": "M",
+          "country": "rs SRB",
+          "first_season": "2008-2009",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Swiss Super League",
+          "url": "https://fbref.com/en/comps/57/history/Swiss-Super-League-Seasons",
+          "gender": "M",
+          "country": "ch SUI",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Swiss Women's Super League",
+          "url": "https://fbref.com/en/comps/894/history/Swiss-Womens-Super-League-Seasons",
+          "gender": "F",
+          "country": "ch SUI",
+          "first_season": "2021-2022",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Allsvenskan",
+          "url": "https://fbref.com/en/comps/29/history/Allsvenskan-Seasons",
+          "gender": "M",
+          "country": "se SWE",
+          "first_season": "2001",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Damallsvenskan",
+          "url": "https://fbref.com/en/comps/187/history/Damallsvenskan-Seasons",
+          "gender": "F",
+          "country": "se SWE",
+          "first_season": "2017",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Süper Lig",
+          "url": "https://fbref.com/en/comps/26/history/Super-Lig-Seasons",
+          "gender": "M",
+          "country": "tr TUR",
+          "first_season": "2001-2002",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Ukrainian Premier League",
+          "url": "https://fbref.com/en/comps/39/history/Ukrainian-Premier-League-Seasons",
+          "gender": "M",
+          "country": "ua UKR",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": "Ukrainian Komanda Footballer of the Year"
+        },
+        {
+          "competition_name": "Uruguayan Primera División",
+          "url": "https://fbref.com/en/comps/45/history/Uruguayan-Primera-Division-Seasons",
+          "gender": "M",
+          "country": "uy URU",
+          "first_season": "2014-2015",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Major League Soccer",
+          "url": "https://fbref.com/en/comps/22/history/Major-League-Soccer-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "1996",
+          "last_season": "2025",
+          "awards": "MLS MVP Award"
+        },
+        {
+          "competition_name": "National Women's Soccer League",
+          "url": "https://fbref.com/en/comps/182/history/NWSL-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2013",
+          "last_season": "2025",
+          "awards": "NWSL Defender of the Year, NWSL Goalkeeper of the Year, NWSL Golden Boot, NWSL Midfielder of the Year, ..."
+        },
+        {
+          "competition_name": "Women's Professional Soccer",
+          "url": "https://fbref.com/en/comps/878/history/Womens-Professional-Soccer-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2009",
+          "last_season": "2011",
+          "awards": ""
+        },
+        {
+          "competition_name": "Women's United Soccer Association",
+          "url": "https://fbref.com/en/comps/877/history/Womens-United-Soccer-Association-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2001",
+          "last_season": "2003",
+          "awards": ""
+        },
+        {
+          "competition_name": "Venezuelan Primera División",
+          "url": "https://fbref.com/en/comps/105/history/Venezuelan-Primera-Division-Seasons",
+          "gender": "M",
+          "country": "ve VEN",
+          "first_season": "2014-2015",
+          "last_season": "2025",
+          "awards": ""
+        }
+      ],
+      "domestic_leagues__1st_tier_links": [
+        {
+          "name": "Liga Profesional de Fútbol Argentina",
+          "url": "https://fbref.com/en/comps/21/history/Liga-Profesional-Argentina-Seasons"
+        },
+        {
+          "name": "A-League Men",
+          "url": "https://fbref.com/en/comps/65/history/A-League-Men-Seasons"
+        },
+        {
+          "name": "A-League Women",
+          "url": "https://fbref.com/en/comps/196/history/A-League-Women-Seasons"
+        },
+        {
+          "name": "Austrian Football Bundesliga",
+          "url": "https://fbref.com/en/comps/56/history/Austrian-Bundesliga-Seasons"
+        },
+        {
+          "name": "ÖFB Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/286/history/OFB-Frauen-Bundesliga-Seasons"
+        },
+        {
+          "name": "Belgian Pro League",
+          "url": "https://fbref.com/en/comps/37/history/Belgian-Pro-League-Seasons"
+        },
+        {
+          "name": "Belgian Women's Super League",
+          "url": "https://fbref.com/en/comps/296/history/Belgian-Womens-Super-League-Seasons"
+        },
+        {
+          "name": "División de Fútbol Profesional",
+          "url": "https://fbref.com/en/comps/74/history/Bolivian-Primera-Division-Seasons"
+        },
+        {
+          "name": "Campeonato Brasileiro Série A",
+          "url": "https://fbref.com/en/comps/24/history/Serie-A-Seasons"
+        },
+        {
+          "name": "Brasileirão Feminino Série A1",
+          "url": "https://fbref.com/en/comps/206/history/Serie-A1-Seasons"
+        },
+        {
+          "name": "First Professional Football League",
+          "url": "https://fbref.com/en/comps/67/history/Bulgarian-First-League-Seasons"
+        },
+        {
+          "name": "Canadian Premier League",
+          "url": "https://fbref.com/en/comps/211/history/Canadian-Premier-League-Seasons"
+        },
+        {
+          "name": "Chilean Primera División",
+          "url": "https://fbref.com/en/comps/35/history/Chilean-Primera-Division-Seasons"
+        },
+        {
+          "name": "Chinese Football Association Super League",
+          "url": "https://fbref.com/en/comps/62/history/Chinese-Super-League-Seasons"
+        },
+        {
+          "name": "Categoría Primera A",
+          "url": "https://fbref.com/en/comps/41/history/Primera-A-Seasons"
+        },
+        {
+          "name": "Croatian Football League",
+          "url": "https://fbref.com/en/comps/63/history/Hrvatska-NL-Seasons"
+        },
+        {
+          "name": "Czech First League",
+          "url": "https://fbref.com/en/comps/66/history/Czech-First-League-Seasons"
+        },
+        {
+          "name": "Danish Superliga",
+          "url": "https://fbref.com/en/comps/50/history/Danish-Superliga-Seasons"
+        },
+        {
+          "name": "A-Liga",
+          "url": "https://fbref.com/en/comps/340/history/A-Liga-Seasons"
+        },
+        {
+          "name": "Liga Profesional Ecuador",
+          "url": "https://fbref.com/en/comps/58/history/Serie-A-Seasons"
+        },
+        {
+          "name": "Premier League",
+          "url": "https://fbref.com/en/comps/9/history/Premier-League-Seasons"
+        },
+        {
+          "name": "FA Women's Super League",
+          "url": "https://fbref.com/en/comps/189/history/Womens-Super-League-Seasons"
+        },
+        {
+          "name": "La Liga",
+          "url": "https://fbref.com/en/comps/12/history/La-Liga-Seasons"
+        },
+        {
+          "name": "Liga F",
+          "url": "https://fbref.com/en/comps/230/history/Liga-F-Seasons"
+        },
+        {
+          "name": "Veikkausliiga",
+          "url": "https://fbref.com/en/comps/43/history/Veikkausliiga-Seasons"
+        },
+        {
+          "name": "Ligue 1",
+          "url": "https://fbref.com/en/comps/13/history/Ligue-1-Seasons"
+        },
+        {
+          "name": "Première Ligue",
+          "url": "https://fbref.com/en/comps/193/history/Premiere-Ligue-Seasons"
+        },
+        {
+          "name": "Fußball-Bundesliga",
+          "url": "https://fbref.com/en/comps/20/history/Bundesliga-Seasons"
+        },
+        {
+          "name": "Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/183/history/Frauen-Bundesliga-Seasons"
+        },
+        {
+          "name": "Super League Greece",
+          "url": "https://fbref.com/en/comps/27/history/Super-League-Greece-Seasons"
+        },
+        {
+          "name": "Nemzeti Bajnokság I",
+          "url": "https://fbref.com/en/comps/46/history/NB-I-Seasons"
+        },
+        {
+          "name": "Indian Super League",
+          "url": "https://fbref.com/en/comps/82/history/Indian-Super-League-Seasons"
+        },
+        {
+          "name": "League of Ireland Premier Division",
+          "url": "https://fbref.com/en/comps/80/history/League-of-Ireland-Premier-Division-Seasons"
+        },
+        {
+          "name": "Persian Gulf Pro League",
+          "url": "https://fbref.com/en/comps/64/history/Persian-Gulf-Pro-League-Seasons"
+        },
+        {
+          "name": "Serie A",
+          "url": "https://fbref.com/en/comps/11/history/Serie-A-Seasons"
+        },
+        {
+          "name": "Serie A",
+          "url": "https://fbref.com/en/comps/208/history/Serie-A-Seasons"
+        },
+        {
+          "name": "J1 League",
+          "url": "https://fbref.com/en/comps/25/history/J1-League-Seasons"
+        },
+        {
+          "name": "Women Empowerment League",
+          "url": "https://fbref.com/en/comps/893/history/WE-League-Seasons"
+        },
+        {
+          "name": "K League 1",
+          "url": "https://fbref.com/en/comps/55/history/K-League-1-Seasons"
+        },
+        {
+          "name": "Saudi Pro League",
+          "url": "https://fbref.com/en/comps/70/history/Saudi-Pro-League-Seasons"
+        },
+        {
+          "name": "Liga MX",
+          "url": "https://fbref.com/en/comps/31/history/Liga-MX-Seasons"
+        },
+        {
+          "name": "Eredivisie",
+          "url": "https://fbref.com/en/comps/23/history/Eredivisie-Seasons"
+        },
+        {
+          "name": "Eredivisie Vrouwen",
+          "url": "https://fbref.com/en/comps/195/history/Eredivisie-Vrouwen-Seasons"
+        },
+        {
+          "name": "Eliteserien",
+          "url": "https://fbref.com/en/comps/28/history/Eliteserien-Seasons"
+        },
+        {
+          "name": "Toppserien",
+          "url": "https://fbref.com/en/comps/185/history/Toppserien-Seasons"
+        },
+        {
+          "name": "Paraguayan Primera División",
+          "url": "https://fbref.com/en/comps/61/history/Primera-Division-Seasons"
+        },
+        {
+          "name": "Liga 1 de Fútbol Profesional",
+          "url": "https://fbref.com/en/comps/44/history/Liga-1-Seasons"
+        },
+        {
+          "name": "Ekstraklasa",
+          "url": "https://fbref.com/en/comps/36/history/Ekstraklasa-Seasons"
+        },
+        {
+          "name": "Primeira Liga",
+          "url": "https://fbref.com/en/comps/32/history/Primeira-Liga-Seasons"
+        },
+        {
+          "name": "Liga I",
+          "url": "https://fbref.com/en/comps/47/history/Liga-I-Seasons"
+        },
+        {
+          "name": "South African Premiership",
+          "url": "https://fbref.com/en/comps/52/history/South-African-Premiership-Seasons"
+        },
+        {
+          "name": "Russian Premier League",
+          "url": "https://fbref.com/en/comps/30/history/Russian-Premier-League-Seasons"
+        },
+        {
+          "name": "Scottish Premiership",
+          "url": "https://fbref.com/en/comps/40/history/Scottish-Premiership-Seasons"
+        },
+        {
+          "name": "Serbian SuperLiga",
+          "url": "https://fbref.com/en/comps/54/history/Serbian-SuperLiga-Seasons"
+        },
+        {
+          "name": "Swiss Super League",
+          "url": "https://fbref.com/en/comps/57/history/Swiss-Super-League-Seasons"
+        },
+        {
+          "name": "Swiss Women's Super League",
+          "url": "https://fbref.com/en/comps/894/history/Swiss-Womens-Super-League-Seasons"
+        },
+        {
+          "name": "Allsvenskan",
+          "url": "https://fbref.com/en/comps/29/history/Allsvenskan-Seasons"
+        },
+        {
+          "name": "Damallsvenskan",
+          "url": "https://fbref.com/en/comps/187/history/Damallsvenskan-Seasons"
+        },
+        {
+          "name": "Süper Lig",
+          "url": "https://fbref.com/en/comps/26/history/Super-Lig-Seasons"
+        },
+        {
+          "name": "Ukrainian Premier League",
+          "url": "https://fbref.com/en/comps/39/history/Ukrainian-Premier-League-Seasons"
+        },
+        {
+          "name": "Uruguayan Primera División",
+          "url": "https://fbref.com/en/comps/45/history/Uruguayan-Primera-Division-Seasons"
+        },
+        {
+          "name": "Major League Soccer",
+          "url": "https://fbref.com/en/comps/22/history/Major-League-Soccer-Seasons"
+        },
+        {
+          "name": "National Women's Soccer League",
+          "url": "https://fbref.com/en/comps/182/history/NWSL-Seasons"
+        },
+        {
+          "name": "Women's Professional Soccer",
+          "url": "https://fbref.com/en/comps/878/history/Womens-Professional-Soccer-Seasons"
+        },
+        {
+          "name": "Women's United Soccer Association",
+          "url": "https://fbref.com/en/comps/877/history/Womens-United-Soccer-Association-Seasons"
+        },
+        {
+          "name": "Venezuelan Primera División",
+          "url": "https://fbref.com/en/comps/105/history/Venezuelan-Primera-Division-Seasons"
+        }
+      ]
+    },
+    "domestic_leagues__2nd_tier": {
+      "title": "Domestic Leagues - 2nd Tier",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "Challenger Pro League",
+          "url": "https://fbref.com/en/comps/69/history/Challenger-Pro-League-Seasons",
+          "gender": "M",
+          "country": "be BEL",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Campeonato Brasileiro Série B",
+          "url": "https://fbref.com/en/comps/38/history/Serie-B-Seasons",
+          "gender": "M",
+          "country": "br BRA",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "EFL Championship",
+          "url": "https://fbref.com/en/comps/10/history/Championship-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2001-2002",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Spanish Segunda División",
+          "url": "https://fbref.com/en/comps/17/history/Segunda-Division-Seasons",
+          "gender": "M",
+          "country": "es ESP",
+          "first_season": "2001-2002",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Ligue 2",
+          "url": "https://fbref.com/en/comps/60/history/Ligue-2-Seasons",
+          "gender": "M",
+          "country": "fr FRA",
+          "first_season": "2009-2010",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "2. Fußball-Bundesliga",
+          "url": "https://fbref.com/en/comps/33/history/2-Bundesliga-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "2003-2004",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "I-League",
+          "url": "https://fbref.com/en/comps/378/history/I-League-Seasons",
+          "gender": "M",
+          "country": "in IND",
+          "first_season": "2013-2014",
+          "last_season": "2024-2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Serie B",
+          "url": "https://fbref.com/en/comps/18/history/Serie-B-Seasons",
+          "gender": "M",
+          "country": "it ITA",
+          "first_season": "2001-2002",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "J2 League",
+          "url": "https://fbref.com/en/comps/49/history/J2-League-Seasons",
+          "gender": "M",
+          "country": "jp JPN",
+          "first_season": "2014",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "Eerste Divisie",
+          "url": "https://fbref.com/en/comps/51/history/Eerste-Divisie-Seasons",
+          "gender": "M",
+          "country": "nl NED",
+          "first_season": "2007-2008",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Scottish Championship",
+          "url": "https://fbref.com/en/comps/72/history/Scottish-Championship-Seasons",
+          "gender": "M",
+          "country": "sct SCO",
+          "first_season": "2007-2008",
+          "last_season": "2025-2026",
+          "awards": ""
+        },
+        {
+          "competition_name": "Superettan",
+          "url": "https://fbref.com/en/comps/48/history/Superettan-Seasons",
+          "gender": "M",
+          "country": "se SWE",
+          "first_season": "2006",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "North American Soccer League",
+          "url": "https://fbref.com/en/comps/76/history/NASL-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "2011",
+          "last_season": "2017",
+          "awards": ""
+        },
+        {
+          "competition_name": "USL Championship",
+          "url": "https://fbref.com/en/comps/73/history/USL-Championship-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "2011",
+          "last_season": "2025",
+          "awards": ""
+        },
+        {
+          "competition_name": "USL First Division",
+          "url": "https://fbref.com/en/comps/68/history/USL-D-1-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "2004",
+          "last_season": "2009",
+          "awards": ""
+        },
+        {
+          "competition_name": "USSF Division 2 Professional League",
+          "url": "https://fbref.com/en/comps/79/history/D2-Pro-League-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "2010",
+          "last_season": "2010",
+          "awards": ""
+        }
+      ],
+      "domestic_leagues__2nd_tier_links": [
+        {
+          "name": "Challenger Pro League",
+          "url": "https://fbref.com/en/comps/69/history/Challenger-Pro-League-Seasons"
+        },
+        {
+          "name": "Campeonato Brasileiro Série B",
+          "url": "https://fbref.com/en/comps/38/history/Serie-B-Seasons"
+        },
+        {
+          "name": "EFL Championship",
+          "url": "https://fbref.com/en/comps/10/history/Championship-Seasons"
+        },
+        {
+          "name": "Spanish Segunda División",
+          "url": "https://fbref.com/en/comps/17/history/Segunda-Division-Seasons"
+        },
+        {
+          "name": "Ligue 2",
+          "url": "https://fbref.com/en/comps/60/history/Ligue-2-Seasons"
+        },
+        {
+          "name": "2. Fußball-Bundesliga",
+          "url": "https://fbref.com/en/comps/33/history/2-Bundesliga-Seasons"
+        },
+        {
+          "name": "I-League",
+          "url": "https://fbref.com/en/comps/378/history/I-League-Seasons"
+        },
+        {
+          "name": "Serie B",
+          "url": "https://fbref.com/en/comps/18/history/Serie-B-Seasons"
+        },
+        {
+          "name": "J2 League",
+          "url": "https://fbref.com/en/comps/49/history/J2-League-Seasons"
+        },
+        {
+          "name": "Eerste Divisie",
+          "url": "https://fbref.com/en/comps/51/history/Eerste-Divisie-Seasons"
+        },
+        {
+          "name": "Scottish Championship",
+          "url": "https://fbref.com/en/comps/72/history/Scottish-Championship-Seasons"
+        },
+        {
+          "name": "Superettan",
+          "url": "https://fbref.com/en/comps/48/history/Superettan-Seasons"
+        },
+        {
+          "name": "North American Soccer League",
+          "url": "https://fbref.com/en/comps/76/history/NASL-Seasons"
+        },
+        {
+          "name": "USL Championship",
+          "url": "https://fbref.com/en/comps/73/history/USL-Championship-Seasons"
+        },
+        {
+          "name": "USL First Division",
+          "url": "https://fbref.com/en/comps/68/history/USL-D-1-Seasons"
+        },
+        {
+          "name": "USSF Division 2 Professional League",
+          "url": "https://fbref.com/en/comps/79/history/D2-Pro-League-Seasons"
+        }
+      ]
+    },
+    "domestic_leagues__3rd_tier_and_lower": {
+      "title": "Domestic Leagues - 3rd Tier and Lower",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "EFL League One",
+          "url": "https://fbref.com/en/comps/15/history/League-One-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2002-2003",
+          "last_season": "2025-2026",
+          "tier": "3rd",
+          "awards": ""
+        },
+        {
+          "competition_name": "EFL League Two",
+          "url": "https://fbref.com/en/comps/16/history/League-Two-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2002-2003",
+          "last_season": "2025-2026",
+          "tier": "4th",
+          "awards": ""
+        },
+        {
+          "competition_name": "National League",
+          "url": "https://fbref.com/en/comps/34/history/National-League-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2006-2007",
+          "last_season": "2025-2026",
+          "tier": "5th",
+          "awards": ""
+        },
+        {
+          "competition_name": "3. Fußball-Liga",
+          "url": "https://fbref.com/en/comps/59/history/3-Liga-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "2009-2010",
+          "last_season": "2025-2026",
+          "tier": "3rd",
+          "awards": ""
+        },
+        {
+          "competition_name": "USL League One",
+          "url": "https://fbref.com/en/comps/137/history/USL-League-One-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "2020",
+          "last_season": "2025",
+          "tier": "3rd",
+          "awards": ""
+        }
+      ],
+      "domestic_leagues__3rd_tier_and_lower_links": [
+        {
+          "name": "EFL League One",
+          "url": "https://fbref.com/en/comps/15/history/League-One-Seasons"
+        },
+        {
+          "name": "EFL League Two",
+          "url": "https://fbref.com/en/comps/16/history/League-Two-Seasons"
+        },
+        {
+          "name": "National League",
+          "url": "https://fbref.com/en/comps/34/history/National-League-Seasons"
+        },
+        {
+          "name": "3. Fußball-Liga",
+          "url": "https://fbref.com/en/comps/59/history/3-Liga-Seasons"
+        },
+        {
+          "name": "USL League One",
+          "url": "https://fbref.com/en/comps/137/history/USL-League-One-Seasons"
+        }
+      ]
+    },
+    "national_team_qualification": {
+      "title": "National Team Qualification",
+      "headers": [
+        "competition_name",
+        "gender",
+        "governing_body",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "FIFA World Cup Qualification — Inter-confederation play-offs",
+          "url": "https://fbref.com/en/comps/255/history/FIFA-World-Cup-Qualification----Inter-confederation-play-offs-Seasons",
+          "gender": "M",
+          "governing_body": "FIFA",
+          "first_season": "2022",
+          "last_season": "2022",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Africa Cup of Nations qualification",
+          "url": "https://fbref.com/en/comps/657/history/Africa-Cup-of-Nations-qualification-Seasons",
+          "gender": "M",
+          "governing_body": "CAF",
+          "first_season": "2015",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA World Cup Qualification — CAF",
+          "url": "https://fbref.com/en/comps/2/history/WCQ----CAF-M-Seasons",
+          "gender": "M",
+          "governing_body": "CAF",
+          "first_season": "2002",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA World Cup Qualification — CONCACAF",
+          "url": "https://fbref.com/en/comps/3/history/WCQ----CONCACAF-M-Seasons",
+          "gender": "M",
+          "governing_body": "CONCACAF",
+          "first_season": "1998",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA World Cup Qualification — CONMEBOL",
+          "url": "https://fbref.com/en/comps/4/history/WCQ----CONMEBOL-M-Seasons",
+          "gender": "M",
+          "governing_body": "CONMEBOL",
+          "first_season": "2002",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA World Cup Qualification — OFC",
+          "url": "https://fbref.com/en/comps/5/history/WCQ----OFC-M-Seasons",
+          "gender": "M",
+          "governing_body": "OFC",
+          "first_season": "2014",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA World Cup Qualification — UEFA",
+          "url": "https://fbref.com/en/comps/6/history/WCQ----UEFA-M-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "1998",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA European Football Championship Qualifying",
+          "url": "https://fbref.com/en/comps/678/history/UEFA-Euro-Qualifying-Seasons",
+          "gender": "M",
+          "governing_body": "UEFA",
+          "first_season": "2008",
+          "last_season": "2024",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA Women's World Cup Qualification (UEFA)",
+          "url": "https://fbref.com/en/comps/160/history/WCQ----UEFA-W-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2019",
+          "last_season": "2023",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "UEFA Women's Euro Qualification",
+          "url": "https://fbref.com/en/comps/675/history/UEFA-Womens-Euro-Qualification-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2017",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "AFC Asian Cup qualification",
+          "url": "https://fbref.com/en/comps/665/history/AFC-Asian-Cup-qualification-Seasons",
+          "gender": "M",
+          "governing_body": "AFC",
+          "first_season": "2000",
+          "last_season": "2023",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FIFA World Cup Qualification — AFC",
+          "url": "https://fbref.com/en/comps/7/history/WCQ----AFC-M-Seasons",
+          "gender": "M",
+          "governing_body": "AFC",
+          "first_season": "2002",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "AFC Women's Asian Cup qualification",
+          "url": "https://fbref.com/en/comps/662/history/AFC-Womens-Asian-Cup-qualification-Seasons",
+          "gender": "F",
+          "governing_body": "AFC",
+          "first_season": "2018",
+          "last_season": "2026",
+          "tier": "",
+          "awards": ""
+        }
+      ],
+      "national_team_qualification_links": [
+        {
+          "name": "FIFA World Cup Qualification — Inter-confederation play-offs",
+          "url": "https://fbref.com/en/comps/255/history/FIFA-World-Cup-Qualification----Inter-confederation-play-offs-Seasons"
+        },
+        {
+          "name": "Africa Cup of Nations qualification",
+          "url": "https://fbref.com/en/comps/657/history/Africa-Cup-of-Nations-qualification-Seasons"
+        },
+        {
+          "name": "FIFA World Cup Qualification — CAF",
+          "url": "https://fbref.com/en/comps/2/history/WCQ----CAF-M-Seasons"
+        },
+        {
+          "name": "FIFA World Cup Qualification — CONCACAF",
+          "url": "https://fbref.com/en/comps/3/history/WCQ----CONCACAF-M-Seasons"
+        },
+        {
+          "name": "FIFA World Cup Qualification — CONMEBOL",
+          "url": "https://fbref.com/en/comps/4/history/WCQ----CONMEBOL-M-Seasons"
+        },
+        {
+          "name": "FIFA World Cup Qualification — OFC",
+          "url": "https://fbref.com/en/comps/5/history/WCQ----OFC-M-Seasons"
+        },
+        {
+          "name": "FIFA World Cup Qualification — UEFA",
+          "url": "https://fbref.com/en/comps/6/history/WCQ----UEFA-M-Seasons"
+        },
+        {
+          "name": "UEFA European Football Championship Qualifying",
+          "url": "https://fbref.com/en/comps/678/history/UEFA-Euro-Qualifying-Seasons"
+        },
+        {
+          "name": "FIFA Women's World Cup Qualification (UEFA)",
+          "url": "https://fbref.com/en/comps/160/history/WCQ----UEFA-W-Seasons"
+        },
+        {
+          "name": "UEFA Women's Euro Qualification",
+          "url": "https://fbref.com/en/comps/675/history/UEFA-Womens-Euro-Qualification-Seasons"
+        },
+        {
+          "name": "AFC Asian Cup qualification",
+          "url": "https://fbref.com/en/comps/665/history/AFC-Asian-Cup-qualification-Seasons"
+        },
+        {
+          "name": "FIFA World Cup Qualification — AFC",
+          "url": "https://fbref.com/en/comps/7/history/WCQ----AFC-M-Seasons"
+        },
+        {
+          "name": "AFC Women's Asian Cup qualification",
+          "url": "https://fbref.com/en/comps/662/history/AFC-Womens-Asian-Cup-qualification-Seasons"
+        }
+      ]
+    },
+    "domestic_cups": {
+      "title": "Domestic Cups",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "Copa de la Liga Profesional",
+          "url": "https://fbref.com/en/comps/905/history/Copa-de-la-Liga-Profesional-Seasons",
+          "gender": "M",
+          "country": "ar ARG",
+          "first_season": "2020",
+          "last_season": "2024",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "EFL Cup",
+          "url": "https://fbref.com/en/comps/690/history/EFL-Cup-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FA Community Shield",
+          "url": "https://fbref.com/en/comps/602/history/FA-Community-Shield-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2015",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "FA Cup",
+          "url": "https://fbref.com/en/comps/514/history/FA-Cup-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Copa del Rey",
+          "url": "https://fbref.com/en/comps/569/history/Copa-del-Rey-Seasons",
+          "gender": "M",
+          "country": "es ESP",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Supercopa de España",
+          "url": "https://fbref.com/en/comps/646/history/Supercopa-de-Espana-Seasons",
+          "gender": "M",
+          "country": "es ESP",
+          "first_season": "2015",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Coupe de France",
+          "url": "https://fbref.com/en/comps/518/history/Coupe-de-France-Seasons",
+          "gender": "M",
+          "country": "fr FRA",
+          "first_season": "2014-2015",
+          "last_season": "2024-2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Trophée des Champions",
+          "url": "https://fbref.com/en/comps/604/history/Trophee-des-Champions-Seasons",
+          "gender": "M",
+          "country": "fr FRA",
+          "first_season": "2014",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Coupe de la Ligue",
+          "url": "https://fbref.com/en/comps/693/history/Coupe-de-la-Ligue-Seasons",
+          "gender": "M",
+          "country": "fr FRA",
+          "first_season": "2014-2015",
+          "last_season": "2019-2020",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "DFB-Pokal",
+          "url": "https://fbref.com/en/comps/521/history/DFB-Pokal-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Franz Beckenbauer Supercup",
+          "url": "https://fbref.com/en/comps/606/history/Franz-Beckenbauer-Supercup-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "2014",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "DFB-Pokal Frauen",
+          "url": "https://fbref.com/en/comps/520/history/DFB-Pokal-Frauen-Seasons",
+          "gender": "F",
+          "country": "de GER",
+          "first_season": "2019-2020",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Coppa Italia",
+          "url": "https://fbref.com/en/comps/529/history/Coppa-Italia-Seasons",
+          "gender": "M",
+          "country": "it ITA",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Supercoppa Italiana",
+          "url": "https://fbref.com/en/comps/612/history/Supercoppa-Italiana-Seasons",
+          "gender": "M",
+          "country": "it ITA",
+          "first_season": "2014",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "Lamar Hunt U.S. Open Cup",
+          "url": "https://fbref.com/en/comps/577/history/US-Open-Cup-Seasons",
+          "gender": "M",
+          "country": "us USA",
+          "first_season": "2019",
+          "last_season": "2025",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "NWSL Challenge Cup",
+          "url": "https://fbref.com/en/comps/881/history/NWSL-Challenge-Cup-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2020",
+          "last_season": "2024",
+          "tier": "",
+          "awards": ""
+        },
+        {
+          "competition_name": "NWSL Fall Series",
+          "url": "https://fbref.com/en/comps/884/history/NWSL-Fall-Series-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2020",
+          "last_season": "2020",
+          "tier": "",
+          "awards": ""
+        }
+      ],
+      "domestic_cups_links": [
+        {
+          "name": "Copa de la Liga Profesional",
+          "url": "https://fbref.com/en/comps/905/history/Copa-de-la-Liga-Profesional-Seasons"
+        },
+        {
+          "name": "EFL Cup",
+          "url": "https://fbref.com/en/comps/690/history/EFL-Cup-Seasons"
+        },
+        {
+          "name": "FA Community Shield",
+          "url": "https://fbref.com/en/comps/602/history/FA-Community-Shield-Seasons"
+        },
+        {
+          "name": "FA Cup",
+          "url": "https://fbref.com/en/comps/514/history/FA-Cup-Seasons"
+        },
+        {
+          "name": "Copa del Rey",
+          "url": "https://fbref.com/en/comps/569/history/Copa-del-Rey-Seasons"
+        },
+        {
+          "name": "Supercopa de España",
+          "url": "https://fbref.com/en/comps/646/history/Supercopa-de-Espana-Seasons"
+        },
+        {
+          "name": "Coupe de France",
+          "url": "https://fbref.com/en/comps/518/history/Coupe-de-France-Seasons"
+        },
+        {
+          "name": "Trophée des Champions",
+          "url": "https://fbref.com/en/comps/604/history/Trophee-des-Champions-Seasons"
+        },
+        {
+          "name": "Coupe de la Ligue",
+          "url": "https://fbref.com/en/comps/693/history/Coupe-de-la-Ligue-Seasons"
+        },
+        {
+          "name": "DFB-Pokal",
+          "url": "https://fbref.com/en/comps/521/history/DFB-Pokal-Seasons"
+        },
+        {
+          "name": "Franz Beckenbauer Supercup",
+          "url": "https://fbref.com/en/comps/606/history/Franz-Beckenbauer-Supercup-Seasons"
+        },
+        {
+          "name": "DFB-Pokal Frauen",
+          "url": "https://fbref.com/en/comps/520/history/DFB-Pokal-Frauen-Seasons"
+        },
+        {
+          "name": "Coppa Italia",
+          "url": "https://fbref.com/en/comps/529/history/Coppa-Italia-Seasons"
+        },
+        {
+          "name": "Supercoppa Italiana",
+          "url": "https://fbref.com/en/comps/612/history/Supercoppa-Italiana-Seasons"
+        },
+        {
+          "name": "Lamar Hunt U.S. Open Cup",
+          "url": "https://fbref.com/en/comps/577/history/US-Open-Cup-Seasons"
+        },
+        {
+          "name": "NWSL Challenge Cup",
+          "url": "https://fbref.com/en/comps/881/history/NWSL-Challenge-Cup-Seasons"
+        },
+        {
+          "name": "NWSL Fall Series",
+          "url": "https://fbref.com/en/comps/884/history/NWSL-Fall-Series-Seasons"
+        }
+      ]
+    },
+    "domestic_youth_leagues": {
+      "title": "Domestic Youth Leagues",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "Premier League 2",
+          "url": "https://fbref.com/en/comps/852/history/Premier-League-2-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2016-2017",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "Premier League 2 — Division 2",
+          "url": "https://fbref.com/en/comps/853/history/Premier-League-2----Division-2-Seasons",
+          "gender": "M",
+          "country": "eng ENG",
+          "first_season": "2016-2017",
+          "last_season": "2022-2023",
+          "tier": "2nd",
+          "awards": ""
+        },
+        {
+          "competition_name": "U17 DFB Youth League",
+          "url": "https://fbref.com/en/comps/851/history/U17-DFB-Youth-League-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "2016-2017",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        },
+        {
+          "competition_name": "U19 DFB Youth League",
+          "url": "https://fbref.com/en/comps/850/history/U19-DFB-Youth-League-Seasons",
+          "gender": "M",
+          "country": "de GER",
+          "first_season": "2015-2016",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": ""
+        }
+      ],
+      "domestic_youth_leagues_links": [
+        {
+          "name": "Premier League 2",
+          "url": "https://fbref.com/en/comps/852/history/Premier-League-2-Seasons"
+        },
+        {
+          "name": "Premier League 2 — Division 2",
+          "url": "https://fbref.com/en/comps/853/history/Premier-League-2----Division-2-Seasons"
+        },
+        {
+          "name": "U17 DFB Youth League",
+          "url": "https://fbref.com/en/comps/851/history/U17-DFB-Youth-League-Seasons"
+        },
+        {
+          "name": "U19 DFB Youth League",
+          "url": "https://fbref.com/en/comps/850/history/U19-DFB-Youth-League-Seasons"
+        }
+      ]
     }
-  ],
-  "womens_only": []
+  }
 }

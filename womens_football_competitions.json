@@ -1,0 +1,1293 @@
+{
+  "timestamp": "2025-10-13T15:19:45.237Z",
+  "source": "fbref.com",
+  "dataType": "women's football competitions",
+  "summary": {
+    "total_tables": 9,
+    "tables": [
+      {
+        "name": "Club International Cups",
+        "rows": 1,
+        "total_links": 1
+      },
+      {
+        "name": "National Team Competitions",
+        "rows": 11,
+        "total_links": 11
+      },
+      {
+        "name": "Big 5 European Leagues",
+        "rows": 0,
+        "total_links": 0
+      },
+      {
+        "name": "Domestic Leagues - 1st Tier",
+        "rows": 19,
+        "total_links": 18
+      },
+      {
+        "name": "Domestic Leagues - 2nd Tier",
+        "rows": 0,
+        "total_links": 0
+      },
+      {
+        "name": "Domestic Leagues - 3rd Tier and Lower",
+        "rows": 0,
+        "total_links": 0
+      },
+      {
+        "name": "National Team Qualification",
+        "rows": 3,
+        "total_links": 3
+      },
+      {
+        "name": "Domestic Cups",
+        "rows": 3,
+        "total_links": 3
+      },
+      {
+        "name": "Domestic Youth Leagues",
+        "rows": 0,
+        "total_links": 0
+      }
+    ]
+  },
+  "tables": {
+    "club_international_cups": {
+      "title": "Club International Cups",
+      "headers": [
+        "competition_name",
+        "gender",
+        "governing_body",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "UEFA Women's Champions League",
+          "url": "https://fbref.com/en/comps/181/history/Champions-League-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2014-2015",
+          "last_season": "2025-2026",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "UEFA Women's Champions League",
+              "url": "https://fbref.com/en/comps/181/history/Champions-League-Seasons"
+            },
+            "first_season_link": {
+              "name": "2014-2015",
+              "url": "https://fbref.com/en/comps/181/2014-2015/2014-2015-Champions-League-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/181/Champions-League-Stats"
+            }
+          }
+        }
+      ],
+      "club_international_cups_links": [
+        {
+          "name": "UEFA Women's Champions League",
+          "url": "https://fbref.com/en/comps/181/history/Champions-League-Seasons"
+        }
+      ]
+    },
+    "national_team_competitions": {
+      "title": "National Team Competitions",
+      "headers": [
+        "competition_name",
+        "gender",
+        "governing_body",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "FIFA Women's World Cup",
+          "url": "https://fbref.com/en/comps/106/history/Womens-World-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "1991",
+          "last_season": "2023",
+          "tier": "1st",
+          "awards": "FIFA Women's World Cup All-Star Team, FIFA Women's World Cup Bronze Ball, FIFA Women's World Cup Golden Ball, FIFA Women's World Cup Golden Boot, ...",
+          "links": {
+            "competition_link": {
+              "name": "FIFA Women's World Cup",
+              "url": "https://fbref.com/en/comps/106/history/Womens-World-Cup-Seasons"
+            },
+            "first_season_link": {
+              "name": "1991",
+              "url": "https://fbref.com/en/comps/106/1991/1991-Womens-World-Cup-Stats"
+            },
+            "last_season_link": {
+              "name": "2023",
+              "url": "https://fbref.com/en/comps/106/Womens-World-Cup-Stats"
+            },
+            "awards_link": {
+              "name": "FIFA Women's World Cup All-Star Team, FIFA Women's World Cup Bronze Ball, FIFA Women's World Cup Golden Ball, FIFA Women's World Cup Golden Boot, ...",
+              "url": "https://fbref.com/en/awards/wwc_all_star/FIFA-Womens-World-Cup-All-Star-Team"
+            }
+          }
+        },
+        {
+          "competition_name": "Olympics — Women's Tournament",
+          "url": "https://fbref.com/en/comps/180/history/Olympics-W-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "1996",
+          "last_season": "2024",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Olympics — Women's Tournament",
+              "url": "https://fbref.com/en/comps/180/history/Olympics-W-Seasons"
+            },
+            "first_season_link": {
+              "name": "1996",
+              "url": "https://fbref.com/en/comps/180/1996/1996-Olympics-W-Stats"
+            },
+            "last_season_link": {
+              "name": "2024",
+              "url": "https://fbref.com/en/comps/180/Olympics-W-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Algarve Cup",
+          "url": "https://fbref.com/en/comps/214/history/Algarve-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "2019",
+          "last_season": "2022",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Algarve Cup",
+              "url": "https://fbref.com/en/comps/214/history/Algarve-Cup-Seasons"
+            },
+            "first_season_link": {
+              "name": "2019",
+              "url": "https://fbref.com/en/comps/214/2019/2019-Algarve-Cup-Stats"
+            },
+            "last_season_link": {
+              "name": "2022",
+              "url": "https://fbref.com/en/comps/214/Algarve-Cup-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "International Friendlies (W)",
+          "url": "https://fbref.com/en/comps/217/history/Friendlies-W-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "2019",
+          "last_season": "2025",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "International Friendlies (W)",
+              "url": "https://fbref.com/en/comps/217/history/Friendlies-W-Seasons"
+            },
+            "first_season_link": {
+              "name": "2019",
+              "url": "https://fbref.com/en/comps/217/2019/2019-Friendlies-W-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/217/Friendlies-W-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "SheBelieves Cup",
+          "url": "https://fbref.com/en/comps/212/history/SheBelieves-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "FIFA",
+          "first_season": "2016",
+          "last_season": "2024",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "SheBelieves Cup",
+              "url": "https://fbref.com/en/comps/212/history/SheBelieves-Cup-Seasons"
+            },
+            "first_season_link": {
+              "name": "2016",
+              "url": "https://fbref.com/en/comps/212/2016/2016-SheBelieves-Cup-Stats"
+            },
+            "last_season_link": {
+              "name": "2024",
+              "url": "https://fbref.com/en/comps/212/SheBelieves-Cup-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Africa Women Cup of Nations",
+          "url": "https://fbref.com/en/comps/156/history/Africa-Women-Cup-of-Nations-Seasons",
+          "gender": "F",
+          "governing_body": "CAF",
+          "first_season": "2016",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Africa Women Cup of Nations",
+              "url": "https://fbref.com/en/comps/156/history/Africa-Women-Cup-of-Nations-Seasons"
+            },
+            "first_season_link": {
+              "name": "2016",
+              "url": "https://fbref.com/en/comps/156/2016/2016-Africa-Women-Cup-of-Nations-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/156/Africa-Women-Cup-of-Nations-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "CONCACAF W Championship",
+          "url": "https://fbref.com/en/comps/157/history/CONCACAF-W-Championship-Seasons",
+          "gender": "F",
+          "governing_body": "CONCACAF",
+          "first_season": "2014",
+          "last_season": "2022",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "CONCACAF W Championship",
+              "url": "https://fbref.com/en/comps/157/history/CONCACAF-W-Championship-Seasons"
+            },
+            "first_season_link": {
+              "name": "2014",
+              "url": "https://fbref.com/en/comps/157/2014/2014-CONCACAF-W-Championship-Stats"
+            },
+            "last_season_link": {
+              "name": "2022",
+              "url": "https://fbref.com/en/comps/157/CONCACAF-W-Championship-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Copa América Femenina",
+          "url": "https://fbref.com/en/comps/158/history/Copa-America-Femenina-Seasons",
+          "gender": "F",
+          "governing_body": "CONMEBOL",
+          "first_season": "2018",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Copa América Femenina",
+              "url": "https://fbref.com/en/comps/158/history/Copa-America-Femenina-Seasons"
+            },
+            "first_season_link": {
+              "name": "2018",
+              "url": "https://fbref.com/en/comps/158/2018/2018-Copa-America-Femenina-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/158/Copa-America-Femenina-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "OFC Women's Nations Cup",
+          "url": "https://fbref.com/en/comps/159/history/OFC-Womens-Nations-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "OFC",
+          "first_season": "2018",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "OFC Women's Nations Cup",
+              "url": "https://fbref.com/en/comps/159/history/OFC-Womens-Nations-Cup-Seasons"
+            },
+            "first_season_link": {
+              "name": "2018",
+              "url": "https://fbref.com/en/comps/159/2018/2018-OFC-Womens-Nations-Cup-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/159/OFC-Womens-Nations-Cup-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "UEFA Women's Championship",
+          "url": "https://fbref.com/en/comps/162/history/UEFA-Womens-Euro-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2001",
+          "last_season": "2025",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "UEFA Women's Championship",
+              "url": "https://fbref.com/en/comps/162/history/UEFA-Womens-Euro-Seasons"
+            },
+            "first_season_link": {
+              "name": "2001",
+              "url": "https://fbref.com/en/comps/162/2001/2001-UEFA-Womens-Euro-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/162/UEFA-Womens-Euro-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "AFC Women's Asian Cup",
+          "url": "https://fbref.com/en/comps/161/history/AFC-Womens-Asian-Cup-Seasons",
+          "gender": "F",
+          "governing_body": "AFC",
+          "first_season": "2014",
+          "last_season": "2022",
+          "tier": "1st",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "AFC Women's Asian Cup",
+              "url": "https://fbref.com/en/comps/161/history/AFC-Womens-Asian-Cup-Seasons"
+            },
+            "first_season_link": {
+              "name": "2014",
+              "url": "https://fbref.com/en/comps/161/2014/2014-AFC-Womens-Asian-Cup-Stats"
+            },
+            "last_season_link": {
+              "name": "2022",
+              "url": "https://fbref.com/en/comps/161/AFC-Womens-Asian-Cup-Stats"
+            }
+          }
+        }
+      ],
+      "national_team_competitions_links": [
+        {
+          "name": "FIFA Women's World Cup",
+          "url": "https://fbref.com/en/comps/106/history/Womens-World-Cup-Seasons"
+        },
+        {
+          "name": "Olympics — Women's Tournament",
+          "url": "https://fbref.com/en/comps/180/history/Olympics-W-Seasons"
+        },
+        {
+          "name": "Algarve Cup",
+          "url": "https://fbref.com/en/comps/214/history/Algarve-Cup-Seasons"
+        },
+        {
+          "name": "International Friendlies (W)",
+          "url": "https://fbref.com/en/comps/217/history/Friendlies-W-Seasons"
+        },
+        {
+          "name": "SheBelieves Cup",
+          "url": "https://fbref.com/en/comps/212/history/SheBelieves-Cup-Seasons"
+        },
+        {
+          "name": "Africa Women Cup of Nations",
+          "url": "https://fbref.com/en/comps/156/history/Africa-Women-Cup-of-Nations-Seasons"
+        },
+        {
+          "name": "CONCACAF W Championship",
+          "url": "https://fbref.com/en/comps/157/history/CONCACAF-W-Championship-Seasons"
+        },
+        {
+          "name": "Copa América Femenina",
+          "url": "https://fbref.com/en/comps/158/history/Copa-America-Femenina-Seasons"
+        },
+        {
+          "name": "OFC Women's Nations Cup",
+          "url": "https://fbref.com/en/comps/159/history/OFC-Womens-Nations-Cup-Seasons"
+        },
+        {
+          "name": "UEFA Women's Championship",
+          "url": "https://fbref.com/en/comps/162/history/UEFA-Womens-Euro-Seasons"
+        },
+        {
+          "name": "AFC Women's Asian Cup",
+          "url": "https://fbref.com/en/comps/161/history/AFC-Womens-Asian-Cup-Seasons"
+        }
+      ]
+    },
+    "big_5_european_leagues": {
+      "title": "Big 5 European Leagues",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [],
+      "big_5_european_leagues_links": []
+    },
+    "domestic_leagues__1st_tier": {
+      "title": "Domestic Leagues - 1st Tier",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "A-League Women",
+          "url": "https://fbref.com/en/comps/196/history/A-League-Women-Seasons",
+          "gender": "F",
+          "country": "au AUS",
+          "first_season": "2018-2019",
+          "last_season": "2025-2026",
+          "awards": "A-League Women Julie Dolan Award, A-League Women Golden Boot",
+          "links": {
+            "competition_link": {
+              "name": "A-League Women",
+              "url": "https://fbref.com/en/comps/196/history/A-League-Women-Seasons"
+            },
+            "country_link": {
+              "name": "au AUS",
+              "url": "https://fbref.com/en/country/AUS/Australia-Football"
+            },
+            "first_season_link": {
+              "name": "2018-2019",
+              "url": "https://fbref.com/en/comps/196/2018-2019/2018-2019-A-League-Women-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/196/2025-2026/2025-2026-A-League-Women-Stats"
+            },
+            "awards_link": {
+              "name": "A-League Women Julie Dolan Award, A-League Women Golden Boot",
+              "url": "https://fbref.com/en/awards/wleague_dolan_award/A-League-Women-Julie-Dolan-Award"
+            }
+          }
+        },
+        {
+          "competition_name": "ÖFB Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/286/history/OFB-Frauen-Bundesliga-Seasons",
+          "gender": "F",
+          "country": "at AUT",
+          "first_season": "2020-2021",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "ÖFB Frauen-Bundesliga",
+              "url": "https://fbref.com/en/comps/286/history/OFB-Frauen-Bundesliga-Seasons"
+            },
+            "country_link": {
+              "name": "at AUT",
+              "url": "https://fbref.com/en/country/AUT/Austria-Football"
+            },
+            "first_season_link": {
+              "name": "2020-2021",
+              "url": "https://fbref.com/en/comps/286/2020-2021/2020-2021-OFB-Frauen-Bundesliga-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/286/OFB-Frauen-Bundesliga-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Belgian Women's Super League",
+          "url": "https://fbref.com/en/comps/296/history/Belgian-Womens-Super-League-Seasons",
+          "gender": "F",
+          "country": "be BEL",
+          "first_season": "2020-2021",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Belgian Women's Super League",
+              "url": "https://fbref.com/en/comps/296/history/Belgian-Womens-Super-League-Seasons"
+            },
+            "country_link": {
+              "name": "be BEL",
+              "url": "https://fbref.com/en/country/BEL/Belgium-Football"
+            },
+            "first_season_link": {
+              "name": "2020-2021",
+              "url": "https://fbref.com/en/comps/296/2020-2021/2020-2021-Belgian-Womens-Super-League-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/296/Belgian-Womens-Super-League-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Brasileirão Feminino Série A1",
+          "url": "https://fbref.com/en/comps/206/history/Serie-A1-Seasons",
+          "gender": "F",
+          "country": "br BRA",
+          "first_season": "2019",
+          "last_season": "2025",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Brasileirão Feminino Série A1",
+              "url": "https://fbref.com/en/comps/206/history/Serie-A1-Seasons"
+            },
+            "country_link": {
+              "name": "br BRA",
+              "url": "https://fbref.com/en/country/BRA/Brazil-Football"
+            },
+            "first_season_link": {
+              "name": "2019",
+              "url": "https://fbref.com/en/comps/206/2019/2019-Serie-A1-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/206/Serie-A1-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "A-Liga",
+          "url": "https://fbref.com/en/comps/340/history/A-Liga-Seasons",
+          "gender": "F",
+          "country": "dk DEN",
+          "first_season": "2019-2020",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "A-Liga",
+              "url": "https://fbref.com/en/comps/340/history/A-Liga-Seasons"
+            },
+            "country_link": {
+              "name": "dk DEN",
+              "url": "https://fbref.com/en/country/DEN/Denmark-Football"
+            },
+            "first_season_link": {
+              "name": "2019-2020",
+              "url": "https://fbref.com/en/comps/340/2019-2020/2019-2020-A-Liga-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/340/A-Liga-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "FA Women's Super League",
+          "url": "https://fbref.com/en/comps/189/history/Womens-Super-League-Seasons",
+          "gender": "F",
+          "country": "eng ENG",
+          "first_season": "2017",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "FA Women's Super League",
+              "url": "https://fbref.com/en/comps/189/history/Womens-Super-League-Seasons"
+            },
+            "country_link": {
+              "name": "eng ENG",
+              "url": "https://fbref.com/en/country/ENG/England-Football"
+            },
+            "first_season_link": {
+              "name": "2017",
+              "url": "https://fbref.com/en/comps/189/2017/2017-Womens-Super-League-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/189/Womens-Super-League-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Liga F",
+          "url": "https://fbref.com/en/comps/230/history/Liga-F-Seasons",
+          "gender": "F",
+          "country": "es ESP",
+          "first_season": "2022-2023",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Liga F",
+              "url": "https://fbref.com/en/comps/230/history/Liga-F-Seasons"
+            },
+            "country_link": {
+              "name": "es ESP",
+              "url": "https://fbref.com/en/country/ESP/Spain-Football"
+            },
+            "first_season_link": {
+              "name": "2022-2023",
+              "url": "https://fbref.com/en/comps/230/2022-2023/2022-2023-Liga-F-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/230/Liga-F-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Première Ligue",
+          "url": "https://fbref.com/en/comps/193/history/Premiere-Ligue-Seasons",
+          "gender": "F",
+          "country": "fr FRA",
+          "first_season": "2017-2018",
+          "last_season": "2025-2026",
+          "awards": "Ligue 1 Female Player of the Year",
+          "links": {
+            "competition_link": {
+              "name": "Première Ligue",
+              "url": "https://fbref.com/en/comps/193/history/Premiere-Ligue-Seasons"
+            },
+            "country_link": {
+              "name": "fr FRA",
+              "url": "https://fbref.com/en/country/FRA/France-Football"
+            },
+            "first_season_link": {
+              "name": "2017-2018",
+              "url": "https://fbref.com/en/comps/193/2017-2018/2017-2018-Premiere-Ligue-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/193/Premiere-Ligue-Stats"
+            },
+            "awards_link": {
+              "name": "Ligue 1 Female Player of the Year",
+              "url": "https://fbref.com/en/awards/ligue_poy_f/Ligue-1-Female-Player-of-the-Year"
+            }
+          }
+        },
+        {
+          "competition_name": "Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/183/history/Frauen-Bundesliga-Seasons",
+          "gender": "F",
+          "country": "de GER",
+          "first_season": "2016-2017",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Frauen-Bundesliga",
+              "url": "https://fbref.com/en/comps/183/history/Frauen-Bundesliga-Seasons"
+            },
+            "country_link": {
+              "name": "de GER",
+              "url": "https://fbref.com/en/country/GER/Germany-Football"
+            },
+            "first_season_link": {
+              "name": "2016-2017",
+              "url": "https://fbref.com/en/comps/183/2016-2017/2016-2017-Frauen-Bundesliga-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/183/Frauen-Bundesliga-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Serie A",
+          "url": "https://fbref.com/en/comps/208/history/Serie-A-Seasons",
+          "gender": "F",
+          "country": "it ITA",
+          "first_season": "2018-2019",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Serie A",
+              "url": "https://fbref.com/en/comps/208/history/Serie-A-Seasons"
+            },
+            "country_link": {
+              "name": "it ITA",
+              "url": "https://fbref.com/en/country/ITA/Italy-Football"
+            },
+            "first_season_link": {
+              "name": "2018-2019",
+              "url": "https://fbref.com/en/comps/208/2018-2019/2018-2019-Serie-A-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/208/Serie-A-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Women Empowerment League",
+          "url": "https://fbref.com/en/comps/893/history/WE-League-Seasons",
+          "gender": "F",
+          "country": "jp JPN",
+          "first_season": "2021-2022",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Women Empowerment League",
+              "url": "https://fbref.com/en/comps/893/history/WE-League-Seasons"
+            },
+            "country_link": {
+              "name": "jp JPN",
+              "url": "https://fbref.com/en/country/JPN/Japan-Football"
+            },
+            "first_season_link": {
+              "name": "2021-2022",
+              "url": "https://fbref.com/en/comps/893/2021-2022/2021-2022-WE-League-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/893/WE-League-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Competition Name",
+          "gender": "F",
+          "country": "Country",
+          "first_season": "First Season",
+          "last_season": "Last Season",
+          "awards": "Awards"
+        },
+        {
+          "competition_name": "Eredivisie Vrouwen",
+          "url": "https://fbref.com/en/comps/195/history/Eredivisie-Vrouwen-Seasons",
+          "gender": "F",
+          "country": "nl NED",
+          "first_season": "2018-2019",
+          "last_season": "2025-2026",
+          "awards": "Eredivisie Golden Shoe",
+          "links": {
+            "competition_link": {
+              "name": "Eredivisie Vrouwen",
+              "url": "https://fbref.com/en/comps/195/history/Eredivisie-Vrouwen-Seasons"
+            },
+            "country_link": {
+              "name": "nl NED",
+              "url": "https://fbref.com/en/country/NED/Netherlands-Football"
+            },
+            "first_season_link": {
+              "name": "2018-2019",
+              "url": "https://fbref.com/en/comps/195/2018-2019/2018-2019-Eredivisie-Vrouwen-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/195/Eredivisie-Vrouwen-Stats"
+            },
+            "awards_link": {
+              "name": "Eredivisie Golden Shoe",
+              "url": "https://fbref.com/en/awards/eredivisie_golden_shoe/Eredivisie-Golden-Shoe"
+            }
+          }
+        },
+        {
+          "competition_name": "Toppserien",
+          "url": "https://fbref.com/en/comps/185/history/Toppserien-Seasons",
+          "gender": "F",
+          "country": "no NOR",
+          "first_season": "2017",
+          "last_season": "2025",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Toppserien",
+              "url": "https://fbref.com/en/comps/185/history/Toppserien-Seasons"
+            },
+            "country_link": {
+              "name": "no NOR",
+              "url": "https://fbref.com/en/country/NOR/Norway-Football"
+            },
+            "first_season_link": {
+              "name": "2017",
+              "url": "https://fbref.com/en/comps/185/2017/2017-Toppserien-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/185/Toppserien-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Swiss Women's Super League",
+          "url": "https://fbref.com/en/comps/894/history/Swiss-Womens-Super-League-Seasons",
+          "gender": "F",
+          "country": "ch SUI",
+          "first_season": "2021-2022",
+          "last_season": "2025-2026",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Swiss Women's Super League",
+              "url": "https://fbref.com/en/comps/894/history/Swiss-Womens-Super-League-Seasons"
+            },
+            "country_link": {
+              "name": "ch SUI",
+              "url": "https://fbref.com/en/country/SUI/Switzerland-Football"
+            },
+            "first_season_link": {
+              "name": "2021-2022",
+              "url": "https://fbref.com/en/comps/894/2021-2022/2021-2022-Swiss-Womens-Super-League-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/894/Swiss-Womens-Super-League-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Damallsvenskan",
+          "url": "https://fbref.com/en/comps/187/history/Damallsvenskan-Seasons",
+          "gender": "F",
+          "country": "se SWE",
+          "first_season": "2017",
+          "last_season": "2025",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Damallsvenskan",
+              "url": "https://fbref.com/en/comps/187/history/Damallsvenskan-Seasons"
+            },
+            "country_link": {
+              "name": "se SWE",
+              "url": "https://fbref.com/en/country/SWE/Sweden-Football"
+            },
+            "first_season_link": {
+              "name": "2017",
+              "url": "https://fbref.com/en/comps/187/2017/2017-Damallsvenskan-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/187/Damallsvenskan-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "National Women's Soccer League",
+          "url": "https://fbref.com/en/comps/182/history/NWSL-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2013",
+          "last_season": "2025",
+          "awards": "NWSL Defender of the Year, NWSL Goalkeeper of the Year, NWSL Golden Boot, NWSL Midfielder of the Year, ...",
+          "links": {
+            "competition_link": {
+              "name": "National Women's Soccer League",
+              "url": "https://fbref.com/en/comps/182/history/NWSL-Seasons"
+            },
+            "country_link": {
+              "name": "us USA",
+              "url": "https://fbref.com/en/country/USA/United-States-Football"
+            },
+            "first_season_link": {
+              "name": "2013",
+              "url": "https://fbref.com/en/comps/182/2013/2013-NWSL-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/182/NWSL-Stats"
+            },
+            "awards_link": {
+              "name": "NWSL Defender of the Year, NWSL Goalkeeper of the Year, NWSL Golden Boot, NWSL Midfielder of the Year, ...",
+              "url": "https://fbref.com/en/awards/nwsl_def_year/NWSL-Defender-of-the-Year"
+            }
+          }
+        },
+        {
+          "competition_name": "Women's Professional Soccer",
+          "url": "https://fbref.com/en/comps/878/history/Womens-Professional-Soccer-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2009",
+          "last_season": "2011",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Women's Professional Soccer",
+              "url": "https://fbref.com/en/comps/878/history/Womens-Professional-Soccer-Seasons"
+            },
+            "country_link": {
+              "name": "us USA",
+              "url": "https://fbref.com/en/country/USA/United-States-Football"
+            },
+            "first_season_link": {
+              "name": "2009",
+              "url": "https://fbref.com/en/comps/878/2009/2009-Womens-Professional-Soccer-Stats"
+            },
+            "last_season_link": {
+              "name": "2011",
+              "url": "https://fbref.com/en/comps/878/2011/2011-Womens-Professional-Soccer-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "Women's United Soccer Association",
+          "url": "https://fbref.com/en/comps/877/history/Womens-United-Soccer-Association-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2001",
+          "last_season": "2003",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "Women's United Soccer Association",
+              "url": "https://fbref.com/en/comps/877/history/Womens-United-Soccer-Association-Seasons"
+            },
+            "country_link": {
+              "name": "us USA",
+              "url": "https://fbref.com/en/country/USA/United-States-Football"
+            },
+            "first_season_link": {
+              "name": "2001",
+              "url": "https://fbref.com/en/comps/877/2001/2001-Womens-United-Soccer-Association-Stats"
+            },
+            "last_season_link": {
+              "name": "2003",
+              "url": "https://fbref.com/en/comps/877/2003/2003-Womens-United-Soccer-Association-Stats"
+            }
+          }
+        }
+      ],
+      "domestic_leagues__1st_tier_links": [
+        {
+          "name": "A-League Women",
+          "url": "https://fbref.com/en/comps/196/history/A-League-Women-Seasons"
+        },
+        {
+          "name": "ÖFB Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/286/history/OFB-Frauen-Bundesliga-Seasons"
+        },
+        {
+          "name": "Belgian Women's Super League",
+          "url": "https://fbref.com/en/comps/296/history/Belgian-Womens-Super-League-Seasons"
+        },
+        {
+          "name": "Brasileirão Feminino Série A1",
+          "url": "https://fbref.com/en/comps/206/history/Serie-A1-Seasons"
+        },
+        {
+          "name": "A-Liga",
+          "url": "https://fbref.com/en/comps/340/history/A-Liga-Seasons"
+        },
+        {
+          "name": "FA Women's Super League",
+          "url": "https://fbref.com/en/comps/189/history/Womens-Super-League-Seasons"
+        },
+        {
+          "name": "Liga F",
+          "url": "https://fbref.com/en/comps/230/history/Liga-F-Seasons"
+        },
+        {
+          "name": "Première Ligue",
+          "url": "https://fbref.com/en/comps/193/history/Premiere-Ligue-Seasons"
+        },
+        {
+          "name": "Frauen-Bundesliga",
+          "url": "https://fbref.com/en/comps/183/history/Frauen-Bundesliga-Seasons"
+        },
+        {
+          "name": "Serie A",
+          "url": "https://fbref.com/en/comps/208/history/Serie-A-Seasons"
+        },
+        {
+          "name": "Women Empowerment League",
+          "url": "https://fbref.com/en/comps/893/history/WE-League-Seasons"
+        },
+        {
+          "name": "Eredivisie Vrouwen",
+          "url": "https://fbref.com/en/comps/195/history/Eredivisie-Vrouwen-Seasons"
+        },
+        {
+          "name": "Toppserien",
+          "url": "https://fbref.com/en/comps/185/history/Toppserien-Seasons"
+        },
+        {
+          "name": "Swiss Women's Super League",
+          "url": "https://fbref.com/en/comps/894/history/Swiss-Womens-Super-League-Seasons"
+        },
+        {
+          "name": "Damallsvenskan",
+          "url": "https://fbref.com/en/comps/187/history/Damallsvenskan-Seasons"
+        },
+        {
+          "name": "National Women's Soccer League",
+          "url": "https://fbref.com/en/comps/182/history/NWSL-Seasons"
+        },
+        {
+          "name": "Women's Professional Soccer",
+          "url": "https://fbref.com/en/comps/878/history/Womens-Professional-Soccer-Seasons"
+        },
+        {
+          "name": "Women's United Soccer Association",
+          "url": "https://fbref.com/en/comps/877/history/Womens-United-Soccer-Association-Seasons"
+        }
+      ]
+    },
+    "domestic_leagues__2nd_tier": {
+      "title": "Domestic Leagues - 2nd Tier",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "awards"
+      ],
+      "rows": [],
+      "domestic_leagues__2nd_tier_links": []
+    },
+    "domestic_leagues__3rd_tier_and_lower": {
+      "title": "Domestic Leagues - 3rd Tier and Lower",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [],
+      "domestic_leagues__3rd_tier_and_lower_links": []
+    },
+    "national_team_qualification": {
+      "title": "National Team Qualification",
+      "headers": [
+        "competition_name",
+        "gender",
+        "governing_body",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "FIFA Women's World Cup Qualification (UEFA)",
+          "url": "https://fbref.com/en/comps/160/history/WCQ----UEFA-W-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2019",
+          "last_season": "2023",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "FIFA Women's World Cup Qualification (UEFA)",
+              "url": "https://fbref.com/en/comps/160/history/WCQ----UEFA-W-Seasons"
+            },
+            "first_season_link": {
+              "name": "2019",
+              "url": "https://fbref.com/en/comps/160/2019/2019-WCQ----UEFA-W-Stats"
+            },
+            "last_season_link": {
+              "name": "2023",
+              "url": "https://fbref.com/en/comps/160/WCQ----UEFA-W-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "UEFA Women's Euro Qualification",
+          "url": "https://fbref.com/en/comps/675/history/UEFA-Womens-Euro-Qualification-Seasons",
+          "gender": "F",
+          "governing_body": "UEFA",
+          "first_season": "2017",
+          "last_season": "2025",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "UEFA Women's Euro Qualification",
+              "url": "https://fbref.com/en/comps/675/history/UEFA-Womens-Euro-Qualification-Seasons"
+            },
+            "first_season_link": {
+              "name": "2017",
+              "url": "https://fbref.com/en/comps/675/2017/2017-UEFA-Womens-Euro-Qualification-Stats"
+            },
+            "last_season_link": {
+              "name": "2025",
+              "url": "https://fbref.com/en/comps/675/UEFA-Womens-Euro-Qualification-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "AFC Women's Asian Cup qualification",
+          "url": "https://fbref.com/en/comps/662/history/AFC-Womens-Asian-Cup-qualification-Seasons",
+          "gender": "F",
+          "governing_body": "AFC",
+          "first_season": "2018",
+          "last_season": "2026",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "AFC Women's Asian Cup qualification",
+              "url": "https://fbref.com/en/comps/662/history/AFC-Womens-Asian-Cup-qualification-Seasons"
+            },
+            "first_season_link": {
+              "name": "2018",
+              "url": "https://fbref.com/en/comps/662/2018/2018-AFC-Womens-Asian-Cup-qualification-Stats"
+            },
+            "last_season_link": {
+              "name": "2026",
+              "url": "https://fbref.com/en/comps/662/AFC-Womens-Asian-Cup-qualification-Stats"
+            }
+          }
+        }
+      ],
+      "national_team_qualification_links": [
+        {
+          "name": "FIFA Women's World Cup Qualification (UEFA)",
+          "url": "https://fbref.com/en/comps/160/history/WCQ----UEFA-W-Seasons"
+        },
+        {
+          "name": "UEFA Women's Euro Qualification",
+          "url": "https://fbref.com/en/comps/675/history/UEFA-Womens-Euro-Qualification-Seasons"
+        },
+        {
+          "name": "AFC Women's Asian Cup qualification",
+          "url": "https://fbref.com/en/comps/662/history/AFC-Womens-Asian-Cup-qualification-Seasons"
+        }
+      ]
+    },
+    "domestic_cups": {
+      "title": "Domestic Cups",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [
+        {
+          "competition_name": "DFB-Pokal Frauen",
+          "url": "https://fbref.com/en/comps/520/history/DFB-Pokal-Frauen-Seasons",
+          "gender": "F",
+          "country": "de GER",
+          "first_season": "2019-2020",
+          "last_season": "2025-2026",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "DFB-Pokal Frauen",
+              "url": "https://fbref.com/en/comps/520/history/DFB-Pokal-Frauen-Seasons"
+            },
+            "country_link": {
+              "name": "de GER",
+              "url": "https://fbref.com/en/country/GER/Germany-Football"
+            },
+            "first_season_link": {
+              "name": "2019-2020",
+              "url": "https://fbref.com/en/comps/520/2019-2020/2019-2020-DFB-Pokal-Frauen-Stats"
+            },
+            "last_season_link": {
+              "name": "2025-2026",
+              "url": "https://fbref.com/en/comps/520/DFB-Pokal-Frauen-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "NWSL Challenge Cup",
+          "url": "https://fbref.com/en/comps/881/history/NWSL-Challenge-Cup-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2020",
+          "last_season": "2024",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "NWSL Challenge Cup",
+              "url": "https://fbref.com/en/comps/881/history/NWSL-Challenge-Cup-Seasons"
+            },
+            "country_link": {
+              "name": "us USA",
+              "url": "https://fbref.com/en/country/USA/United-States-Football"
+            },
+            "first_season_link": {
+              "name": "2020",
+              "url": "https://fbref.com/en/comps/881/2020/2020-NWSL-Challenge-Cup-Stats"
+            },
+            "last_season_link": {
+              "name": "2024",
+              "url": "https://fbref.com/en/comps/881/NWSL-Challenge-Cup-Stats"
+            }
+          }
+        },
+        {
+          "competition_name": "NWSL Fall Series",
+          "url": "https://fbref.com/en/comps/884/history/NWSL-Fall-Series-Seasons",
+          "gender": "F",
+          "country": "us USA",
+          "first_season": "2020",
+          "last_season": "2020",
+          "tier": "",
+          "awards": "",
+          "links": {
+            "competition_link": {
+              "name": "NWSL Fall Series",
+              "url": "https://fbref.com/en/comps/884/history/NWSL-Fall-Series-Seasons"
+            },
+            "country_link": {
+              "name": "us USA",
+              "url": "https://fbref.com/en/country/USA/United-States-Football"
+            },
+            "first_season_link": {
+              "name": "2020",
+              "url": "https://fbref.com/en/comps/884/NWSL-Fall-Series-Stats"
+            },
+            "last_season_link": {
+              "name": "2020",
+              "url": "https://fbref.com/en/comps/884/NWSL-Fall-Series-Stats"
+            }
+          }
+        }
+      ],
+      "domestic_cups_links": [
+        {
+          "name": "DFB-Pokal Frauen",
+          "url": "https://fbref.com/en/comps/520/history/DFB-Pokal-Frauen-Seasons"
+        },
+        {
+          "name": "NWSL Challenge Cup",
+          "url": "https://fbref.com/en/comps/881/history/NWSL-Challenge-Cup-Seasons"
+        },
+        {
+          "name": "NWSL Fall Series",
+          "url": "https://fbref.com/en/comps/884/history/NWSL-Fall-Series-Seasons"
+        }
+      ]
+    },
+    "domestic_youth_leagues": {
+      "title": "Domestic Youth Leagues",
+      "headers": [
+        "competition_name",
+        "gender",
+        "country",
+        "first_season",
+        "last_season",
+        "tier",
+        "awards"
+      ],
+      "rows": [],
+      "domestic_youth_leagues_links": []
+    }
+  }
+}
