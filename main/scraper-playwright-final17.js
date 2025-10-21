@@ -8,45 +8,6 @@ import { scrapeCompetitionData, scrapeCompetitionPage } from './scraper.js';
 // Export all the functions we want to use elsewhere
 export { analyze_page_structure, read_all_leagues, read_mens_leagues, read_womens_leagues };
 
-// Helper function to convert JSON data to CSV format
-function convertToCSV(jsonData) {
-    if (!jsonData || !jsonData.seasons) {
-        return 'No data available';
-    }
-
-    // Define CSV headers based on the data structure
-    const headers = [
-        'Season',
-        'Competition',
-        'Squads',
-        'Champion',
-        'Champion Points',
-        'Top Scorer',
-        'Season URL'
-    ];
-
-    // Create CSV rows from the seasons data
-    const rows = jsonData.seasons.map(season => {
-        return [
-            season.season,
-            season.competition,
-            season.squads || '',
-            season.champion || '',
-            season.champion_points || '',
-            season.top_scorer || '',
-            season.season_url
-        ].map(field => {
-            // Handle fields that might contain commas by wrapping in quotes
-            if (field && field.toString().includes(',')) {
-                return `"${field}"`;
-            }
-            return field;
-        }).join(',');
-    });
-
-    // Combine headers and rows
-    return [headers.join(','), ...rows].join('\n');
-}
 
 // Helper function to fetch champion and top scorer data from competition page
 async function fetchCompetitionDetails(page, url) {
