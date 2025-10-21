@@ -1,8 +1,89 @@
 import { chromium } from 'playwright';
 import fs from 'fs';
+import { convertToCSV } from './csvConverter.js';
+import { detectCountry } from './countryDetector.js';
+import { formatFBrefUrl } from './urlFormatter.js';
+import { scrapeCompetitionData, scrapeCompetitionPage } from './scraper.js';
 
 // Export all the functions we want to use elsewhere
 export { analyze_page_structure, read_all_leagues, read_mens_leagues, read_womens_leagues };
+
+// Helper function to convert JSON data to CSV format
+function convertToCSV(jsonData) {
+    if (!jsonData || !jsonData.seasons) {
+        return 'No data available';
+    }
+
+    // Define CSV headers based on the data structure
+    const headers = [
+        'Season',
+        'Competition',
+        'Squads',
+        'Champion',
+        'Champion Points',
+        'Top Scorer',
+        'Season URL'
+    ];
+
+    // Create CSV rows from the seasons data
+    const rows = jsonData.seasons.map(season => {
+        return [
+            season.season,
+            season.competition,
+            season.squads || '',
+            season.champion || '',
+            season.champion_points || '',
+            season.top_scorer || '',
+            season.season_url
+        ].map(field => {
+            // Handle fields that might contain commas by wrapping in quotes
+            if (field && field.toString().includes(',')) {
+                return `"${field}"`;
+            }
+            return field;
+        }).join(',');
+    });
+
+    // Combine headers and rows
+    return [headers.join(','), ...rows].join('\n');
+}
+
+// Helper function to fetch champion and top scorer data from competition page
+async function fetchCompetitionDetails(page, url) {
+    try {
+        await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+        await page.waitForLoadState('networkidle');
+
+        const details = await page.evaluate(() => {
+            const championText = document.querySelector('h2:contains("Champion")');
+            const topScorerText = document.querySelector('h2:contains("Top Scorer")');
+
+            let champion = null;
+            let topScorer = null;
+
+            if (championText) {
+                const championElement = championText.nextElementSibling;
+                if (championElement) {
+                    champion = championElement.textContent.trim();
+                }
+            }
+
+            if (topScorerText) {
+                const topScorerElement = topScorerText.nextElementSibling;
+                if (topScorerElement) {
+                    topScorer = topScorerElement.textContent.trim();
+                }
+            }
+
+            return { champion, topScorer };
+        });
+
+        return details;
+    } catch (error) {
+        console.warn(`Failed to fetch details for ${url}:`, error.message);
+        return { champion: null, topScorer: null };
+    }
+}
 
 // Helper function to read and analyze page structure
 async function analyze_page_structure(page) {
@@ -55,8 +136,8 @@ async function analyze_page_structure(page) {
     return structure;
 }
 
-// Function to read all leagues
-async function read_all_leagues() {
+// Function to read all leagues or a specific league's seasons history
+async function read_all_leagues(season = null, leagueName = null) {
     const browser = await chromium.launch({
         headless: false,
         channel: 'msedge'
@@ -72,15 +153,251 @@ async function read_all_leagues() {
     let jsonData = null;
 
     try {
-        console.log('Navigating to fbref.com competitions page...');
-        await page.goto('https://fbref.com/en/comps/', {
-            waitUntil: 'networkidle',
-            timeout: 90000
-        });
+        const url = formatFBrefUrl(season);
+        console.log(`Navigating to fbref.com competitions page${season ? ` for season ${season}` : ''}...`);
+
+        // Add retry logic for page navigation
+        let retries = 3;
+        while (retries > 0) {
+            try {
+                await page.goto(url, {
+                    waitUntil: 'domcontentloaded', // Changed from networkidle to domcontentloaded
+                    timeout: 180000 // Increased timeout to 3 minutes
+                });
+                break; // If successful, break the retry loop
+            } catch (error) {
+                retries--;
+                if (retries === 0) {
+                    throw error; // If all retries failed, throw the error
+                }
+                console.log(`Navigation failed, retrying... (${retries} attempts remaining)`);
+                await page.waitForTimeout(5000); // Wait 5 seconds before retrying
+            }
+        }
 
         console.log('Waiting for page to load...');
-        await page.waitForLoadState('networkidle');
-        await page.waitForTimeout(5000);
+        try {
+            // Try to wait for either network idle or DOM content loaded
+            await Promise.race([
+                page.waitForLoadState('networkidle', { timeout: 30000 }),
+                page.waitForLoadState('domcontentloaded', { timeout: 30000 })
+            ]);
+            console.log('Page loaded successfully');
+        } catch (error) {
+            console.warn('Timeout while waiting for page load, continuing anyway:', error.message);
+        }
+
+        // Add a shorter fixed wait instead of waiting for network idle
+        await page.waitForTimeout(10000);
+
+        // If a specific league is requested, find its URL and navigate to its history
+        if (leagueName) {
+            console.log(`Searching for league: ${leagueName}...`);
+            const leagueUrl = await page.evaluate((name) => {
+                const links = Array.from(document.querySelectorAll('table a'));
+                const link = links.find(a => a.textContent.trim().toLowerCase().includes(name.toLowerCase()));
+                return link ? link.href : null;
+            }, leagueName);
+
+            if (!leagueUrl) {
+                throw new Error(`League "${leagueName}" not found`);
+            }
+
+            console.log(`Found league URL: ${leagueUrl}`);
+            console.log('Navigating to league page...');
+
+            // Add retry logic for league page navigation
+            let retries = 3;
+            while (retries > 0) {
+                try {
+                    await page.goto(leagueUrl, {
+                        waitUntil: 'domcontentloaded',
+                        timeout: 180000 // 3 minutes
+                    });
+                    break; // If successful, break the retry loop
+                } catch (error) {
+                    retries--;
+                    if (retries === 0) {
+                        throw error; // If all retries failed, throw the error
+                    }
+                    console.log(`League page navigation failed, retrying... (${retries} attempts remaining)`);
+                    await page.waitForTimeout(5000); // Wait 5 seconds before retrying
+                }
+            }
+
+            try {
+                // Try to wait for either network idle or DOM content loaded
+                await Promise.race([
+                    page.waitForLoadState('networkidle', { timeout: 30000 }),
+                    page.waitForLoadState('domcontentloaded', { timeout: 30000 })
+                ]);
+                console.log('League page loaded successfully');
+            } catch (error) {
+                console.warn('Timeout while waiting for league page load, continuing anyway:', error.message);
+            }
+
+            await page.waitForTimeout(10000);
+
+            // Wait for table to be available
+            try {
+                await page.waitForSelector('table#seasons', { timeout: 30000 });
+            } catch (error) {
+                console.warn('Table selector timeout, will try alternative selectors');
+            }
+
+            // Get seasons data
+            // First, log all available tables and their IDs
+            console.log('Analyzing page structure before evaluation...');
+            const tableInfo = await page.evaluate(() => {
+                return Array.from(document.querySelectorAll('table')).map(table => ({
+                    id: table.id,
+                    className: table.className,
+                    headers: Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim())
+                }));
+            });
+            console.log('Available tables:', JSON.stringify(tableInfo, null, 2));
+
+            const seasonsData = await page.evaluate(() => {
+                const data = [];
+
+                // Debug: Log page title and URL
+                console.log('Current page:', document.title);
+                console.log('URL:', window.location.href);
+
+                // Try different table selectors as some leagues use different IDs/classes
+                const seasonsTable = document.querySelector('table#seasons');
+
+                if (!seasonsTable) {
+                    console.warn('No seasons table found');
+                    return data;
+                }
+
+                // Get the headers first
+                const headers = Array.from(seasonsTable.querySelectorAll('thead th')).map(th => ({
+                    text: th.textContent.trim(),
+                    dataStat: th.getAttribute('data-stat')
+                }));
+
+                // Debug: Log headers
+                console.log('Headers found:', headers);
+
+                const rows = seasonsTable.querySelectorAll('tbody tr:not(.thead)');
+
+                rows.forEach((row, index) => {
+                    // Skip header rows
+                    if (row.classList.contains('thead')) return;
+
+                    const rowData = {};
+
+                    // Process each cell in the row
+                    const cells = row.querySelectorAll('th, td');
+                    console.log(`Row ${index} cells:`, Array.from(cells).map(cell => cell.textContent.trim()));
+                    cells.forEach((cell, cellIndex) => {
+                        if (cellIndex >= headers.length) return;
+
+                        const header = headers[cellIndex];
+                        const headerText = header.text.trim();
+                        const cellText = cell.textContent.trim();
+
+                        // Don't process empty cells
+                        if (!cellText) return;
+
+                        // Map column headers to field names
+                        let fieldName;
+                        switch (headerText) {
+                            case 'Season':
+                                fieldName = 'season';
+                                break;
+                            case 'Competition Name':
+                                fieldName = 'competition';
+                                break;
+                            case '# Squads':
+                                fieldName = 'squads';
+                                // Convert squad count to number
+                                const squadCount = parseInt(cellText);
+                                if (!isNaN(squadCount)) {
+                                    rowData[fieldName] = squadCount;
+                                    return;
+                                }
+                                break;
+                            case 'Champion':
+                                // Handle cases where the champion is listed with points
+                                const championMatch = cellText.match(/(.+?)\s*(?:-\s*(\d+))?$/);
+                                if (championMatch) {
+                                    rowData.champion = championMatch[1].trim();
+                                    if (championMatch[2]) {
+                                        rowData.champion_points = parseInt(championMatch[2]);
+                                    }
+                                } else {
+                                    rowData.champion = cellText;
+                                }
+                                return;
+                            case 'Top Scorer':
+                                fieldName = 'top_scorer';
+                                break;
+                            default:
+                                fieldName = headerText.toLowerCase().replace(/[\s#]+/g, '_');
+                        }
+
+                        // Only set non-empty values
+                        if (cellText) {
+                            rowData[fieldName] = cellText;
+                        }
+
+                        // Check for links
+                        const link = cell.querySelector('a');
+                        if (link) {
+                            rowData[`${fieldName}_url`] = link.href;
+                        }
+
+                        // Extract points from champion text if available
+                        if (fieldName === 'champion' && cellText) {
+                            const pointsMatch = cellText.match(/ - (\d+)$/);
+                            if (pointsMatch) {
+                                rowData.champion_points = parseInt(pointsMatch[1]);
+                                rowData.champion = cellText.split(' - ')[0].trim();
+                            }
+                        }
+                    });
+
+                    // Only add rows that have season data and aren't header rows
+                    if (rowData.season && rowData.season !== 'Season') {
+                        data.push(rowData);
+                    }
+                });
+
+                return data;
+            });
+
+            // Create league-specific data structure
+            jsonData = {
+                timestamp: new Date().toISOString(),
+                source: 'fbref.com',
+                league_name: leagueName,
+                league_url: leagueUrl,
+                seasons_count: seasonsData.length,
+                seasons: seasonsData
+            };
+
+            // Create filenames for league history
+            const leagueFilename = leagueName
+                .toLowerCase()
+                .replace(/\s+/g, '_')
+                .replace(/[^a-z0-9_]/g, '');
+            const seasonStr = season ? `_${season}` : '';
+            const jsonFilename = `data/${leagueFilename}${seasonStr}_history.json`;
+            const csvFilename = `data/${leagueFilename}${seasonStr}_history.csv`;
+
+            // Save files
+            fs.writeFileSync(jsonFilename, JSON.stringify(jsonData, null, 2));
+            console.log(`\nData has been saved to ${jsonFilename}`);
+
+            const csvContent = convertToCSV(jsonData);
+            fs.writeFileSync(csvFilename, csvContent);
+            console.log(`Data has been saved to ${csvFilename}`);
+
+            return jsonData;
+        }
 
         // Click "All Genders" filter
         await page.click('a.sr_preset[data-show=".gender-m,.gender-f"]');
@@ -185,9 +502,19 @@ async function read_all_leagues() {
             tables: tableData
         };
 
-        // Save to file
-        fs.writeFileSync('all_football_competitions.json', JSON.stringify(jsonData, null, 2));
-        console.log('\nData has been saved to all_football_competitions.json');
+        // Create filenames based on season
+        const seasonStr = season ? `_${season}` : '';
+        const jsonFilename = `data/all_football_competitions${seasonStr}.json`;
+        const csvFilename = `data/all_football_competitions${seasonStr}.csv`;
+
+        // Save to JSON file
+        fs.writeFileSync(jsonFilename, JSON.stringify(jsonData, null, 2));
+        console.log(`\nData has been saved to ${jsonFilename}`);
+
+        // Convert to CSV and save
+        const csvContent = convertToCSV(jsonData);
+        fs.writeFileSync(csvFilename, csvContent);
+        console.log(`Data has been saved to ${csvFilename}`);
 
     } catch (error) {
         console.error('An error occurred:', error);
@@ -200,7 +527,7 @@ async function read_all_leagues() {
 }
 
 // Function to read only men's leagues
-async function read_mens_leagues() {
+async function read_mens_leagues(season = null) {
     const browser = await chromium.launch({
         headless: false,
         channel: 'msedge'
@@ -216,8 +543,9 @@ async function read_mens_leagues() {
     let jsonData = null;
 
     try {
-        console.log('Navigating to fbref.com competitions page for men\'s leagues...');
-        await page.goto('https://fbref.com/en/comps/', {
+        const url = formatFBrefUrl(season);
+        console.log(`Navigating to fbref.com competitions page for men's leagues${season ? ` (season ${season})` : ''}...`);
+        await page.goto(url, {
             waitUntil: 'networkidle',
             timeout: 90000
         });
@@ -330,9 +658,19 @@ async function read_mens_leagues() {
             tables: tableData
         };
 
-        // Save to file
-        fs.writeFileSync('mens_football_competitions.json', JSON.stringify(jsonData, null, 2));
-        console.log('\nData has been saved to mens_football_competitions.json');
+        // Create filenames based on season
+        const seasonStr = season ? `_${season}` : '';
+        const jsonFilename = `data/mens_football_competitions${seasonStr}.json`;
+        const csvFilename = `data/mens_football_competitions${seasonStr}.csv`;
+
+        // Save to JSON file
+        fs.writeFileSync(jsonFilename, JSON.stringify(jsonData, null, 2));
+        console.log(`\nData has been saved to ${jsonFilename}`);
+
+        // Convert to CSV and save
+        const csvContent = convertToCSV(jsonData);
+        fs.writeFileSync(csvFilename, csvContent);
+        console.log(`Data has been saved to ${csvFilename}`);
 
     } catch (error) {
         console.error('An error occurred:', error);
@@ -345,7 +683,7 @@ async function read_mens_leagues() {
 }
 
 // Function to read only women's leagues
-async function read_womens_leagues() {
+async function read_womens_leagues(season = null) {
     const browser = await chromium.launch({
         headless: false,
         channel: 'msedge'
@@ -361,8 +699,9 @@ async function read_womens_leagues() {
     let jsonData = null;
 
     try {
-        console.log('Navigating to fbref.com competitions page for women\'s leagues...');
-        await page.goto('https://fbref.com/en/comps/', {
+        const url = formatFBrefUrl(season);
+        console.log(`Navigating to fbref.com competitions page for women's leagues${season ? ` (season ${season})` : ''}...`);
+        await page.goto(url, {
             waitUntil: 'networkidle',
             timeout: 90000
         });
@@ -475,9 +814,19 @@ async function read_womens_leagues() {
             tables: tableData
         };
 
-        // Save to file
-        fs.writeFileSync('womens_football_competitions.json', JSON.stringify(jsonData, null, 2));
-        console.log('\nData has been saved to womens_football_competitions.json');
+        // Create filenames based on season
+        const seasonStr = season ? `_${season}` : '';
+        const jsonFilename = `data/womens_football_competitions${seasonStr}.json`;
+        const csvFilename = `data/womens_football_competitions${seasonStr}.csv`;
+
+        // Save to JSON file
+        fs.writeFileSync(jsonFilename, JSON.stringify(jsonData, null, 2));
+        console.log(`\nData has been saved to ${jsonFilename}`);
+
+        // Convert to CSV and save
+        const csvContent = convertToCSV(jsonData);
+        fs.writeFileSync(csvFilename, csvContent);
+        console.log(`Data has been saved to ${csvFilename}`);
 
     } catch (error) {
         console.error('An error occurred:', error);
@@ -563,8 +912,17 @@ async function main() {
 // Run the main function
 // main().catch(console.error);
 
-// analyze_page_structure().catch(console.error);
-read_womens_leagues().catch(console.error);
+// Example usage:
+// Current season (no parameter)
+// read_all_leagues().catch(console.error);
+
+// Single year season
+// read_mens_leagues("1986").catch(console.error);
+
+// Season range
+// read_all_leagues("2003-2004").catch(console.error);
+
+read_all_leagues(null, "Premier League").catch(console.error);
 
 // Export the main function instead of running it automatically
 export { main };
