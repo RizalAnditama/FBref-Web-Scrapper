@@ -1,3 +1,20 @@
+
+// Run the main function
+// main().catch(console.error);
+
+// Example usage:
+// Current season (no parameter)
+// read_all_leagues().catch(console.error);
+
+// Single year season
+// read_mens_leagues("1986").catch(console.error);
+
+// Season range
+// read_all_leagues("2003-2004").catch(console.error);
+
+read_all_leagues(null, "Premier League").catch(console.error);
+
+
 import { chromium } from 'playwright';
 import fs from 'fs';
 import { convertToCSV } from './csvConverter.js';
@@ -870,20 +887,6 @@ async function main() {
 }
 
 
-// Run the main function
-// main().catch(console.error);
-
-// Example usage:
-// Current season (no parameter)
-// read_all_leagues().catch(console.error);
-
-// Single year season
-// read_mens_leagues("1986").catch(console.error);
-
-// Season range
-// read_all_leagues("2003-2004").catch(console.error);
-
-read_all_leagues(null, "Premier League").catch(console.error);
 
 // Export the main function instead of running it automatically
 export { main };
